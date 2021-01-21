@@ -1,0 +1,1985 @@
+ body{
+    background: black;
+    text-align: center;
+    width: 100%;
+}
+
+/* -- Cabeçalho -- */
+.header{
+    background: black;
+    text-align: center;
+    margin-bottom: 20px;
+    border-style: solid;
+    border-color: #c5e267;
+    border-radius: 20px;
+    border-width: 2px;
+}
+
+    /* -- Logo -- */
+    .logo{
+        width: 150px;
+    }
+
+
+
+    /* -- Menu e Pesquisa: Geral -- */
+    
+        /* -- Mobile -- */
+        #check{
+            display: none;
+        }
+        .checkbtn{
+            display: none;
+        }
+
+    .menu_area{
+        margin-top: 8px;
+    }
+    .menu_area .nav{
+        display: -ms-flexbox;
+        display: flex;
+        -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+        padding-left: 0;
+        margin-bottom: 0;
+        list-style: none;
+        width: 742px;
+        margin-left: 168px;
+    }
+    .nav-pills .nav-link {
+        border-radius: 12px;
+    }
+    .menu_area nav a{
+        background-color: black;
+        color: white;
+        margin-bottom: 10px;
+        margin-top: 10px;
+    }
+    .menu_area nav a:hover{
+        background: #c5e267;
+        color: black;
+    }
+    .form-control{
+        border-radius: 12px;
+    }
+    .form-inline {
+        display: -ms-flexbox;
+        display: flex;
+        -ms-flex-flow: row wrap;
+        flex-flow: row wrap;
+        -ms-flex-align: center;
+        align-items: center;
+        width: 310px;
+    }
+    .form-control {
+        min-width: 100px;
+        text-align: center;
+    }
+    .menu_area button{
+        border-radius: 12px;
+    }
+    .menu_area button:hover{
+        background: #c5e267;
+        color: black;
+        border-radius: 12px;
+    }
+    .menu_area .pesq{
+        width: 310px;
+        margin-top: 8px;
+        margin-left: 660px;
+    }
+
+
+
+/* -- Main -- */
+
+    /* -- Lançamentos: Título -- */
+    .titulo_lancamentos{
+        background: black;
+        text-align: center;
+        padding: 15px;
+        color: white;
+    }
+
+    /* -- Lançamentos: Carousel -- */
+    .carousel-indicators{
+        background: black;
+    }
+    .carousel-indicators .active{
+        background: #8acbda !important;
+    }
+    .carousel-control-prev-icon{
+        background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='%238acbda' viewBox='0 0 8 8'%3E%3Cpath d='M5.25 0l-4 4 4 4 1.5-1.5-2.5-2.5 2.5-2.5-1.5-1.5z'/%3E%3C/svg%3E");
+    }
+    .carousel-control-next-icon{
+        background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='%238acbda' viewBox='0 0 8 8'%3E%3Cpath d='M2.75 0l-1.5 1.5 2.5 2.5-2.5 2.5 1.5 1.5 4-4-4-4z'/%3E%3C/svg%3E");
+    }
+
+    .titulo_lancamentos{
+        border-radius: 20px;
+    }
+    .col_lan{
+        border-style: solid;
+        border-color: #8acbda;
+        border-radius: 20px;
+        border-width: 2px;
+        margin-bottom: 20px;
+    }
+    .lancamentos{
+        height: 400px;
+        margin-bottom: 20px;
+        background: black;
+        color: white;
+    }
+    .lancamentos .infos a{
+        color: white;
+    }
+    .lancamentos li{
+        border-radius: 150px;
+    }
+    .carousel-inner {
+        height: 350px;
+    }
+    .infos{
+        max-width: 45%;
+        margin-left: 20px;
+    }
+    .slide{
+        margin-left: 25px;
+    }
+    .carousel-control-prev {
+        left: -90px;
+    }
+    .carousel-control-next {
+        right: -10px;
+        width: 5%;
+    }
+    .lancamentos iframe {
+        margin-left: 10px;
+        margin-top: 10px;
+        min-width: 100%;
+        min-height: 100%;
+        display: block;
+    }
+
+
+    /* -- Destaques -- */
+    .col_dest{
+        border-style: solid;
+        border-color: #8acbda;
+        border-radius: 20px;
+        border-width: 2px;
+        margin-bottom: 20px;
+    }
+
+        /* -- Título -- */
+        .titulo_destaque button:hover{
+            background: #8acbda;
+            color: black;
+        }
+        .dropdown-menu{
+            background-color: black;
+            color: white;
+            border-style: solid;
+            border-color: #8acbda;
+            border-radius: 12px;
+        }
+        .dropdown-menu a:hover{
+            background-color: #8acbda;
+            color: black;
+        }
+        .btn-outline-light:not(:disabled):not(.disabled).active, .btn-outline-light:not(:disabled):not(.disabled):active, .show>.btn-outline-light.dropdown-toggle {
+            color: white;
+            background-color: black;
+            border-color: #8acbda;
+            border-radius: 12px;
+        }
+        .dropdown-item{
+            padding: 20px;
+            border-radius: 12px;
+            color: white;
+        }
+
+        .destaque{
+            width: 100%;
+            margin-left: 1px;
+            margin-bottom: 20px;
+        }
+        .titulo_destaque{
+            margin-top: 15px;
+            color: white;
+            margin-bottom: .5rem;
+            font-weight: 500;
+            line-height: 0.2;
+            margin-left: -870px;
+        }
+        .dropdown-toggle {
+            white-space: nowrap;
+            margin-left: 1823px;
+            margin-top: -60px;
+            border-radius: 12px;
+        }
+
+        /* -- Cards -- */
+        .destaque{
+            width: 98%;
+            margin-left: 10px;
+        }
+        .card-body{
+            padding: 3px;
+        }
+        .card-title{
+            margin-top: 5px;
+        }
+        .cards_1_dest .card, .card img{
+            border-radius: 12px;
+        }
+        .destaque .card img{
+            width: 246px;
+            height: 345px;
+        }
+
+        .carregar_dest a{
+            border-radius: 12px;
+            background-color: black;
+            color: white;
+            margin-top: 15px;
+            margin-bottom: -5px;
+            width: 176px;
+            margin-left: 0px;
+        }
+        .carregar_dest a:hover{
+            background: #8acbda;
+            color: black;
+        }
+        .card-body a{
+            color: black;
+        }
+
+
+    /* -- Avaliações -- */
+    .col_aval{
+        /*background-color: tomato;*/
+        border-style: solid;
+        border-color: #8acbda;
+        border-radius: 20px;
+        border-width: 2px;
+        margin-bottom: 20px;
+    }
+
+        /* -- Avaliações - Título -- */
+        .titulo_avaliacoes{
+            margin-top: 15px;
+            color: white;
+            margin-bottom: .5rem;
+            font-weight: 500;
+            line-height: 0.2;
+            margin-left: -766px;
+        }
+
+        /* -- Avaliações - Cards -- */
+        .avaliacoes{
+            width: 100%;
+            height: 560px;
+            margin-left: 16px;
+            margin-top: 10px;
+        }
+        .avaliacoes h5{
+            width: 100%;
+            text-align: center;
+            margin-top: 8px;
+            margin-left: 0px;
+            height: 30px;
+        }
+        .avaliacoes .titulo{
+            width: 324px;
+            height: 30px;
+            margin-bottom: 0px;
+            text-align: center;
+        }
+        .avaliacoes .texto{
+            padding: 15px;
+            margin-top: -15px;
+        }
+        .avaliacoes .card a{
+            color: black;
+        }
+        .avaliacoes img{
+            border-radius: 50%;
+            width: 25%;
+            margin-top: 10px;
+        }
+        .avaliacoes .card{
+            display: -webkit-box;
+            width: 95%;
+            height: 492px;
+            border-radius: 15px;
+            margin-left: -7px;
+        }
+        .carregar_av a{
+            border-radius: 12px;
+            background-color: black;
+            color: white;
+            margin-top: -7px;
+            margin-bottom: -5px;
+            width: 206px;
+            margin-left: -7px;
+        }
+        .carregar_av a:hover{
+            background: #8acbda;
+            color: black;
+        }
+
+    /* -- Entrevistas -- */
+    .col_entr{
+        /*background-color: tomato;*/
+        border-style: solid;
+        border-color: #8acbda;
+        border-radius: 20px;
+        border-width: 2px;
+        margin-bottom: 20px;
+    }
+
+        /* -- Entrevistas - Título -- */
+        .titulo_entrevistas{
+            margin-top: 15px;
+            color: white;
+            margin-bottom: .5rem;
+            font-weight: 500;
+            line-height: 0.2;
+            margin-left: -675px;
+        }
+
+        /* -- Entrevistas - Cards -- */
+        .entrevistas{
+            width: 100%;
+            height: 395px;
+            margin-left: 15px;
+            margin-top: 10px;
+        }
+        .entrevistas .card a{
+            color: black;
+        }
+        .entrevistas .card{
+            width: 95%;
+            border-radius: 15px;
+            margin-left: -7px;
+            height: 325px;
+        }
+        .entrevistas iframe{
+            margin-top: 10px;
+            border-radius: 15px;
+            width: 100%;
+        }
+        .entrevistas .infos_ent{
+            margin-top: 170px;
+            margin-left: -330px;
+        }
+
+        .carregar_entr a{
+            border-radius: 12px;
+            background-color: black;
+            color: white;
+            margin-top: -5px;
+            margin-bottom: -5px;
+            width: 210px;
+            margin-left: -7px;
+        }
+        .carregar_entr a:hover{
+            background: #8acbda;
+            color: black;
+        }
+
+
+    /* -- Novidades -- */
+    .col_novis{
+        border-style: solid;
+        border-color: #8acbda;
+        border-radius: 20px;
+        border-width: 2px;
+        margin-bottom: 20px;
+    }
+
+        /* -- Novidades - Título -- */
+        .titulo_novidades{
+            margin-top: 15px;
+            color: white;
+            margin-bottom: .5rem;
+            font-weight: 500;
+            line-height: 0.2;
+            margin-left: 0px;
+        }
+
+        /* -- Novidades - Conteúdo -- */
+        .novidades img{
+            width: 210px;
+            height: 130px;
+            border-radius: 12px;
+            margin-bottom: 20px;
+        }
+        .novidades a{
+            color: white;
+        }
+        .novidades .materia{
+            color: white;
+            text-align: justify;
+        }
+
+
+    /* -- Sobre e Editorial -- */
+    .col_sobredi{
+        border-style: solid;
+        border-color: #d479b5;
+        border-radius: 20px;
+        border-width: 2px;
+        margin-bottom: 20px;
+        margin-left: 20px;
+        min-width: 39.9%;
+    }
+
+        /* -- Sobre e Editorial - Títulos -- */
+        .titulo_sobre, .titulo_edi{
+            margin-top: 15px;
+            color: white;
+            margin-bottom: .5rem;
+            font-weight: 500;
+            line-height: 0.2;
+            margin-left: 22px;
+        }
+
+
+    /* -- Sobre -- */
+
+        /* -- Sobre - Título -- */
+
+        /* -- Sobre - Conteúdo -- */
+        .sobre_cont{
+            color: white;
+            text-align: justify;
+            width: 85%;
+            margin-left: 23px;
+        }
+
+
+    /* -- Editorial -- */
+
+        /* -- Editorial - Título -- */
+
+        /* -- Editorial - Conteúdo -- */
+        .edi_cont{
+            color: white;
+            text-align: justify;
+            width: 100%;
+            margin-left: 38px;
+        }
+        .edi_cont i{
+            font-size: x-large;
+            margin-right: 20px;
+        }
+        .edi_cont .redes i{
+            margin-top: 15px;
+        }
+        .edi_cont a{
+            color: white;
+        }
+
+
+/* -- Rodapé -- */
+.footer{
+    background: black;
+    color: white;
+    text-align: center;
+    margin-bottom: 20px;
+    border-style: solid;
+    border-color: #d479b5;
+    border-radius: 20px;
+    border-width: 2px;
+}
+
+
+.footer img{
+    width: 100px;
+}
+
+.footer .footer_area{
+    margin-top: 25px;
+}
+
+
+
+/*                                              -- MEDIA QUERIES -- 
+                                                -------------------
+*/
+    @media screen and (max-width:335px){
+        body{
+            width: 102%;
+        }
+        /* -- Menu Mobile -- */
+        .checkbtn{
+            display: block;
+            font-size: 30px;
+            color: white;
+            float: right;
+            line-height: 40px;
+            margin-right: 20px;
+            margin-top: 12px;
+            margin-bottom: 0px;
+            cursor: pointer;
+        }
+        #check{
+            display: none;
+        }
+        #checkbox{
+            display: inline;
+        }
+        #check:checked ~ .nav{
+            left: 0;
+            height: 350px;
+            transition: .01s left;
+        }
+
+        .menu_area .btn{
+            width: 20%;
+        }
+
+        /* -- Header -- */
+        .menu_area nav{
+            display: absolute;
+            width: 100%;
+            height: 100%;
+        }
+        .header .menu_area{
+            margin-top: 0px;
+            flex-wrap: wrap;
+            align-items: center;
+            top: 0px;
+            left: 0px;
+            
+        }
+        .menu_area .nav{
+            display: flex;
+            -ms-flex-wrap: wrap;
+            flex-wrap: wrap;
+            padding-left: 0;
+            margin-bottom: 0;
+            list-style: none;
+            width: 0px;
+            margin-left: 0px;
+
+            position: relative;
+            width: 100%;
+            height: 15px;
+            
+            left: -1000px;
+            text-align: center;
+            transition: height 0.5s;
+        }
+        .menu_area nav a {
+            background-color: black;
+            color: white;
+            margin-bottom: 9px;
+            margin-top: 9px;
+            transition: all;
+        }
+        .menu_area nav a:hover{
+            background: #c5e267;
+            color: black;
+        }
+        .form-inline {
+            display: -ms-flexbox;
+            display: flex;
+            -ms-flex-flow: row wrap;
+            flex-flow: row wrap;
+            -ms-flex-align: center;
+            align-items: center;
+            width: 0px;
+        }
+        .form-control {
+            max-width: 150px;
+            text-align: center;
+            margin-right: 5px;
+        }
+        .menu_area button:hover{
+            background: #c5e267;
+            color: black;
+        }
+        .menu_area .pesq{
+            width: 280px;
+            margin-top: 8px;
+            margin-left: 20px;
+        }
+        
+
+
+
+        /* -- Carousel -- */
+        .titulo_lancamentos h1{
+            font-size: xx-large;
+        }
+        .carousel-control-prev {
+            display: none;
+        }
+        .carousel-control-next {
+            display: none;
+        }
+        .lancamentos{
+            height: 25em;
+            margin-bottom: 20px;
+            background: black;
+            color: white;
+        }
+        .lancamentos iframe {
+            margin-left: 6.5%;
+            margin-top: 0px;
+            min-width: 85%;
+            width: 80%;
+            min-height: 94%;
+            display: block;
+        }
+        .lancamentos .infos h3{
+            width: 210%;
+            margin-top: -25px;
+        }
+
+        .carousel-indicators {
+            position: absolute;
+            right: 0;
+            bottom: 480px;
+            left: -6px;
+            z-index: 15;
+            display: -ms-flexbox;
+            display: flex;
+            -ms-flex-pack: center;
+            justify-content: center;
+            padding-left: 0;
+            margin-right: 15%;
+            margin-left: 15%;
+            list-style: none;
+        }
+        .slide{
+            margin-left: 8px;
+        }
+        .infos p{
+            display: none;
+        }
+        .carousel-inner {
+            height: 900px;
+        }
+
+        /* -- Destaques -- */
+            /* -- Destaques - Título -- */
+            .titulo_destaque{
+                display: inline;
+                margin-left: -56%;
+                
+            }
+            .titulo_destaque h1{
+                font-size: 150%;
+            }
+            .dropdown-toggle {
+                margin-left: 0%;
+                width: 50%;
+                margin-top: 6px;
+            }
+
+            /*-- Destaques - Cards -- */
+            .carregar_dest a{
+                margin-left: 14.5%;
+                margin-top: -5px
+            }
+            .destaque .card img{
+                width: 100%;
+                height: 100%;
+            }
+            .cards_1_dest{
+                margin-top: 0px;
+                margin-left: -6%;
+                margin-right: 5%;
+            }
+            .cards_1_dest .card{
+                display: block;
+                width: 100%;
+                margin-bottom: 20px;
+                margin-left: 3.2%;
+            }
+            .card-body{
+                padding: 0px;
+            }   
+            
+        
+        /* -- Avaliações -- */
+            /* -- Avaliações - Título -- */
+            .titulo_avaliacoes{
+                width: 103%;
+                margin-left: -1.5%;
+                padding: 10px;
+            }
+            .titulo_avaliacoes h1{
+                font-size: x-large;
+            }
+
+            /* -- Avaliações - Cards -- */
+            .col_aval{
+                height: 70em;
+            }
+            .avaliacoes{
+                width: 98%;
+                margin-left: 2.3%;
+            }
+            .avaliacoes .card{
+                margin-bottom: 20px;
+                margin-left: -1.2%;
+                width: 100%;
+                height: 305px;
+                overflow: hidden;
+            }
+
+            .avaliacoes img{
+                width: 20%;
+                margin-top: 10px;
+            }
+            .avaliacoes h5{
+                width: 100%;
+            }
+            .avaliacoes h6{
+                width: 100%;
+            }
+            .avaliacoes .texto{
+                margin-left: 5px;
+                width: 100%;
+                text-align: initial;
+            }
+            .avaliacoes .titulo{
+                margin-left: 0.8%;
+                width: 100%;
+            }
+
+            .carregar_av a{
+                width: 90%;
+                margin-left: 2%;
+                margin-top: -0.2%;
+                margin-bottom: 0.8%;
+            }
+
+        /* -- Entrevistas -- */
+            /* -- Entrevistas - Título -- */
+            .titulo_entrevistas{
+                width: 113%;
+                margin-left: -7%;
+                padding: 10px;
+            }
+            .titulo_entrevistas h1{
+                font-size: x-large;
+            }
+
+            /* -- Entrevistas - Cards -- */
+            /* -- Entrevistas - Cards -- */
+            .entrevistas{
+                margin-left: 4.8%;
+            }
+            .col_entr{
+                height: 94em;
+            }
+            .carregar_entr{
+                display: contents;
+            }
+            .carregar_entr a{
+                width: 75%;
+                height: 50px;
+                margin-left: 14.5%;
+                margin-top: 8.8%;
+                margin-bottom: 0.8%;
+            }
+            .entrevistas .card{
+                width: 110%;
+                margin-left: -1.5%;
+                padding-bottom: 20px;
+                height: 115%;
+            }
+            .entrevistas .try{
+                height: 25%;
+            }
+            .entrevistas .infos_ent{
+                max-height: 160px;
+                margin-top: 245px;
+                margin-left: -100%;
+            }
+            .cards_3_entr{
+                height: 90pc;
+                width: 95%;
+            }
+            .entrevistas iframe{
+                width: 98%;
+                height: 55%;
+            }
+
+
+        /* -- Novidades -- */
+            /* -- Novidades - Título -- */
+            .titulo_novidades{
+                margin-left: 27%;
+            }
+            .titulo_novidades h1{
+                font-size: x-large;
+            }
+            /* -- Novidades - Conteúdo -- */
+            .novidades img{
+                margin-top: 15px;
+                width: 70%;
+                margin-left: 0px;
+            }
+
+        /* -- Sobre e Editorial -- */
+        .col_sobredi{
+            margin-left: 0px;
+        }
+
+           /* -- Sobre - Título -- */
+           .titulo_sobre{
+            width: 90%;
+            margin-left: 6%;
+            padding: 5px;
+            }
+            .titulo_sobre h1{
+                font-size: x-large;
+            }
+
+
+            /* -- Editorial - Título -- */
+            .row.titulo_edi{
+                width: 90%;
+                margin-left: 6%;
+                padding: 5px;
+            }
+            .titulo_edi h1{
+                font-size: x-large;
+            }
+
+    }
+    
+/*                                              -- MEDIA QUERIES -- 
+                                                -------------------
+*/
+
+    @media screen and (min-width:336px) and (max-width:575px){ 
+        body{
+            width: 100%;
+        }
+        /* -- Menu Mobile -- */
+        .checkbtn{
+            display: block;
+            font-size: 30px;
+            color: white;
+            float: right;
+            line-height: 40px;
+            margin-right: 0px;
+            margin-top: -39px;
+            margin-bottom: 0px;
+        }
+        #check{
+            display: none;
+        }
+        #checkbox{
+            display: inline;
+        }
+        #check:checked ~ .nav{
+            left: 0;
+            height: 350px;
+            transition: .01s left;
+        }
+
+        /* -- Header -- */
+        .menu_area nav{
+            display: absolute;
+            width: 100%;
+            height: 100%;
+        }
+        .header .menu_area{
+            margin-top: 0px;
+            flex-wrap: wrap;
+            align-items: center;
+            top: 0px;
+            left: 0px;
+        }
+        .menu_area .nav{
+            display: flex;
+            -ms-flex-wrap: wrap;
+            flex-wrap: wrap;
+            padding-left: 0;
+            margin-bottom: 0;
+            list-style: none;
+            width: 0px;
+            margin-left: 0px;
+
+            position: relative;
+            width: 100%;
+            height: 15px;
+
+            left: -1000px;
+            text-align: center;
+            transition: height .5s;
+        }
+        .menu_area nav a {
+            background-color: black;
+            color: white;
+            margin-bottom: 9px;
+            margin-top: 9px;
+
+        }
+        .menu_area nav a:hover{
+            background: #c5e267;
+            color: black;
+        }
+        .form-inline {
+            display: -ms-flexbox;
+            display: flex;
+            -ms-flex-flow: row wrap;
+            flex-flow: row wrap;
+            -ms-flex-align: center;
+            align-items: center;
+            width: 0px;
+        }
+        .form-control {
+            width: 55%;
+            text-align: center;
+            margin-right: 10px;
+        }
+        .menu_area button:hover{
+            background: #c5e267;
+            color: black;
+        }
+        .menu_area .pesq {
+            margin-top: 8px;
+            margin-left: 0px;
+            min-width: 250px;
+            max-width: 565px;
+            width: 90%;
+        }
+        .menu_area{
+            display: inline;
+        }
+
+
+        /* -- Lançamentos -- */
+
+        .col_lan{
+            height: 100%;
+        }
+
+        .titulo_lancamentos h1{
+            font-size: xx-large;
+        }
+
+            /* -- Carousel -- */
+            .carousel-control-prev {
+                left: -5px;
+                width: 5%;
+            }
+            .carousel-control-next {
+                right: 3px;
+                width: 5%;
+            }
+            .carousel-inner { /* PROBLEMA: CORTA A AVALIAÇÃO*/
+                height: 100%;
+            }
+            .carousel-indicators{
+                bottom: -15px;
+                left: -5px;
+            }
+            .lancamentos{
+                height: 50em;
+                margin-bottom: 20px;
+                background: black;
+                color: white;
+            }
+            .lancamentos iframe {
+                margin-left: 6.7%;
+                margin-top: 10px;
+                min-width: 85%;
+                width: 80%;
+                min-height: 94%;
+                display: block;
+            }
+            .slide{
+                margin-left: 8px;
+            }
+            .infos{
+                max-width: 90%;
+                height: 100%;
+                text-align: center;
+                margin-left: 3.5%;
+                margin-top: -3.5%;
+            }
+            
+
+
+
+        /* -- Destaques -- */
+            /* -- Destaques - Título -- */
+            .titulo_destaque{
+                margin-left: -50%;
+                margin-top: 20px;
+                padding: 10px;
+            }
+            .titulo_destaque h1{
+                font-size: x-large;
+            }
+            .dropdown-toggle {
+                margin-left: 70%;
+                width: 120px;
+                margin-top: -45px;
+            }
+
+            /*-- Destaques - Cards -- */
+            .destaque{
+                width: 100%;
+                margin-left: 0px;
+            }
+            .cards_1_dest{
+                margin-top: 0px;
+                margin-left: 14%;
+            }
+            .cards_1_dest .card{
+                width: 75%;
+                height: 100%;
+            }
+            .card-body{
+                padding: 0px;
+            }    
+            .destaque .dest{
+                margin-bottom: 20px;
+            }
+            .carregar_dest a{
+                width: 80%;
+                margin-left: -1%;
+                margin-top: -5px
+            }
+            .destaque .card img{
+                width: 100%;
+                height: 100%;
+            }
+            
+        
+        /* -- Avaliações -- */
+            /* -- Avaliações - Título -- */
+            .titulo_avaliacoes{
+                width: 90%;
+                margin-left: 5%;
+                padding: 10px;
+            }
+            .titulo_avaliacoes h1{
+                font-size: x-large;
+            }
+
+            /* -- Avaliações - Cards -- */
+            .avaliacoes{
+                width: 98%;
+                height: 1600px;
+                margin-left: 5.5%;
+            }
+            .avaliacoes img{
+                width: 25%;
+                margin-top: 10px;
+            }
+            .avaliacoes h5{
+                width: 100%;
+            }
+            .avaliacoes h6{
+                width: 100%;
+            }
+            .avaliacoes .texto{
+                margin-left: 5px;
+                width: 100%;
+                text-align: initial;
+            }
+            .avaliacoes .titulo{
+                margin-left: 0.8%;
+                width: 100%;
+            }
+
+            .carregar_av a{
+                width: 90%;
+                margin-left: -0.8%;
+                margin-top: 0.8%;
+                margin-bottom: 0.8%;
+            }
+
+
+        /* -- Entrevistas -- */
+            /* -- Entrevistas - Título -- */
+            .titulo_entrevistas{
+                width: 90%;
+                margin-left: 4%;
+                padding: 10px;
+            }
+            .titulo_entrevistas h1{
+                font-size: x-large;
+            }
+
+            /* -- Entrevistas - Cards -- */
+            .entrevistas{
+                margin-left: 4.8%;
+            }
+            .col_entr{
+                height: 92.5em;
+            }
+            .carregar_entr{
+                display: contents;
+            }
+            .carregar_entr a{
+                width: 75%;
+                height: 50px;
+                margin-left: 14.5%;
+                margin-top: -0.2%;
+                margin-bottom: 0.8%;
+            }
+            .entrevistas .card{
+                width: 100%;
+                margin-left: 2%;
+                padding-bottom: 20px;
+                height: 115%;
+            }
+            .entrevistas .try{
+                height: 25%;
+            }
+            .entrevistas .infos_ent{
+                max-height: 160px;
+                margin-top: 245px;
+                margin-left: -100%;
+            }
+            .cards_3_entr{
+                height: 90pc;
+                width: 95%;
+            }
+            .entrevistas iframe{
+                width: 98%;
+                height: 55%;
+            }
+
+
+
+        /* -- Novidades -- */
+            /* -- Novidades - Título -- */
+            .titulo_novidades h1{
+                font-size: x-large;
+            }
+            /* -- Novidades - Conteúdo -- */
+            .novidades img{
+                width: 304px;
+                height: 190px;
+                margin-bottom: 20px;
+                margin-top: 10px;
+            }
+
+        /* -- Sobre e Editorial -- */
+        .col_sobredi{
+            margin-left: 0px;
+        }
+            /* -- Sobre - Título -- */
+            .titulo_sobre{
+                width: 90%;
+                margin-left: 4%;
+                padding: 10px;
+            }
+            .titulo_sobre h1{
+                font-size: x-large;
+            }
+
+
+            /* -- Editorial - Título -- */
+            .row.titulo_edi{
+                width: 90%;
+                margin-left: 4%;
+                padding: 10px;
+            }
+            .titulo_edi h1{
+                font-size: x-large;
+            }
+
+    }
+
+/*                                              -- MEDIA QUERIES -- 
+                                                -------------------
+*/
+
+    @media screen and (min-width:576px) and (max-width:767px){ /*CONCERTAR MENU MOBILE*/
+        /* -- Menu Mobile -- */
+        .checkbtn{
+            display: block;
+            font-size: 30px;
+            color: white;
+            float: right;
+            line-height: 40px;
+            margin-right: 0px;
+            margin-top: -39px;
+            cursor: pointer;
+        }
+        #check{
+            display: none;
+        }
+        #checkbox{
+            display: inline;
+        }
+        #check:checked ~ .nav{
+            left: 0;
+            display: inline;
+            transition: height .01s;
+        }
+
+
+        /* -- Outros -- */
+        .menu_area nav{
+            display: absolute;
+            width: 100%;
+            height: 100%;
+
+        }
+        .header .menu_area{
+            margin-top: 0px;
+            /*display: flex;
+            position: fixed;*/
+            flex-wrap: wrap;
+            align-items: center;
+            top: 0px;
+            left: 0px;
+        }
+        .menu_area .nav{
+            display: flex;
+            -ms-flex-wrap: wrap;
+            flex-wrap: wrap;
+            padding-left: 0;
+            margin-bottom: 0;
+            list-style: none;
+            width: 0px;
+            margin-left: 0px;
+
+            position: relative;
+            width: 100%;
+            height: 10px;
+            
+            left: -1000px;
+            text-align: center;
+            transition: height .5s;
+        }
+        .menu_area nav a {
+            background-color: black;
+            color: white;
+            margin-bottom: 9px;
+            margin-top: 9px;
+        }
+        .menu_area nav a:hover{
+            background: #c5e267;
+            color: black;
+        }
+        .form-inline {
+            display: -ms-flexbox;
+            display: flex;
+            -ms-flex-flow: row wrap;
+            flex-flow: row wrap;
+            -ms-flex-align: center;
+            align-items: center;
+            width: 0px;
+        }
+
+        .form-inline .form-control {
+            display: inline-block;
+            width: 55%;
+            vertical-align: middle;
+        }
+
+        .menu_area button:hover{
+            background: #c5e267;
+            color: black;
+        }
+        
+        .menu_area .pesq {
+            margin-top: 8px;
+            margin-left: 0px;
+            min-width: 460px;
+            max-width: 787px;
+            width: 90%;
+        }
+
+        .carousel-control-prev {
+            left: -8px;
+            width: 5%;
+        }
+        .carousel-control-next {
+            right: 0px;
+            width: 5%;
+        }
+
+        /* -- Carousel -- */
+        .titulo_lancamentos h1{
+            font-size: xx-large;
+        }
+        .lancamentos{
+            height: 750px;
+            margin-bottom: 20px;
+            background: black;
+            color: white;
+        }
+        .lancamentos iframe {
+            margin-left: 23px;
+            margin-top: 8px;
+            min-width: 30%;
+            max-width: 90%;
+            display: block;
+        }
+        .slide{
+            margin-left: 8px;
+        }
+        .infos{
+            max-width: 85%;
+            margin-left: 38px;
+            margin-top: 30px;
+            min-height: 100%;
+        }
+        .carousel-inner {
+            height: 750px;
+        }
+        .carousel-indicators {
+            position: absolute;
+            right: 0;
+            bottom: -15px;
+            left: -10px;
+            z-index: 15;
+            display: -ms-flexbox;
+            display: flex;
+            -ms-flex-pack: center;
+            justify-content: center;
+            padding-left: 0;
+            margin-right: 15%;
+            margin-left: 15%;
+            list-style: none;
+        }
+
+        /* -- Destaques -- */
+            /* -- Destaques - Título -- */
+            .titulo_destaque{
+                margin-left: -287px;
+            }
+            .titulo_destaque h1{
+                font-size: xx-large;
+            }
+            .dropdown-toggle {
+                margin-left: 611px;
+            }
+
+            /*-- Destaques - Cards -- */
+            .carregar_dest a{
+                margin-left: 0px;
+                margin-top: -5px
+            }
+            .destaque{
+                width: 98%;
+                height: 90%;
+                margin-left: 5px;
+            }
+            .cards_1_dest .card{
+                margin-bottom: 20px;
+            }
+            .card-body{
+                padding: 3px;
+            }
+            .destaque .card img{
+                width: 230px;
+                height: 322px;
+            }
+    
+
+        /* -- Avaliações -- */
+            /* -- Avaliações - Título -- */
+            .titulo_avaliacoes{
+                margin-left: -224px;
+            }
+            .titulo_avaliacoes h1{
+                font-size: xx-large;
+            }
+
+            /* -- Avaliações - Cards -- */
+            .avaliacoes{
+                width: 98%;
+                height: 1240px;
+                margin-left: 12px;
+                margin-top: 10px;
+            }
+            .avaliacoes .card{
+                margin-bottom: 20px;
+                width: 100%;
+                height: 350px;
+            }
+            .avaliacoes img{
+                width: 83px;
+                height: 83px;
+                margin-top: 10px;
+                margin-left: 200px;
+            }
+            .avaliacoes .carregar_av{
+                margin-top: -20px;
+            }
+            .avaliacoes .titulo{
+                width: 495px;
+                text-align: center;
+            }
+            .avaliacoes h5{
+                width: 100%;
+                text-align: center;
+            }
+
+        /* -- Entrevistas -- */
+            /* -- Entrevistas - Título -- */
+            .titulo_entrevistas{
+                font-weight: 500;
+                line-height: 0.2;
+                margin-left: -160px;
+            }
+            .titulo_entrevistas h1{
+                font-size: xx-large;
+            }
+
+            /* -- Entrevistas - Cards -- */
+            .entrevistas{
+                width: 100%;
+                height: 785px;
+                margin-left: 13px;
+                margin-top: 10px;
+            }
+            .entrevistas .card{
+                width: 95%;
+                border-radius: 15px;
+                margin-left: -7px;
+                height: 340px;
+            }
+            .entrevistas .infos_ent{
+                margin-top: 135px;
+                margin-left: -225px;
+            }
+            .entrevistas iframe{
+                width: 100%;
+                height: 35%;
+            }
+            .cards_3_entr .alone{
+                margin-left: 133px;
+            }
+            .carregar_entr a{
+                margin-top: -5px;
+                margin-bottom: -5px;
+                width: 210px;
+                margin-left: 132px;
+            }
+            .cards_3_entr .alone{
+                margin-left: 133px;
+            }
+
+
+
+        /* -- Novidades -- */
+
+            /* -- Novidades - Conteúdo -- */
+            .novidades img{
+                width: 160px;
+                height: 100px;
+                margin-bottom: 20px;
+                margin-top: 10px;
+            }
+            
+
+        /* -- Sobre e Editorial -- */
+        .col_sobredi{
+            margin-left: 0px;
+        }
+
+    }
+
+/*                                              -- MEDIA QUERIES -- 
+                                                -------------------
+*/
+
+    @media screen and (min-width:768px) and (max-width:991px){ /*CONCERTAR MENU MOBILE*/
+        
+        /* -- Menu Mobile -- */
+        .checkbtn{
+            display: block;
+            font-size: 30px;
+            color: white;
+            float: right;
+            line-height: 40px;
+            margin-right: 15px;
+            margin-top: 7px;
+            margin-bottom: 0px;
+            cursor: pointer;
+        }
+        #check{
+            display: none;
+        }
+        #checkbox{
+            display: inline;
+        }
+        #check:checked ~ .nav{
+            text-align: center;
+            left: 0;
+            display: inline-block;
+            margin-top: 0px;
+            height: 308px;
+            transition: height 0.01s;
+        }
+
+
+
+        /* -- Outros -- */
+        .menu_area nav{
+            display: absolute;
+            width: 100%;
+            height: 100%;
+
+        }
+        .header .menu_area{
+            margin-top: 0px;
+            /*display: flex;
+            position: fixed;*/
+            flex-wrap: wrap;
+            align-items: center;
+            top: 0px;
+            left: 0px;
+        }
+        .menu_area .nav{
+            display: flex;
+            -ms-flex-wrap: wrap;
+            flex-wrap: wrap;
+            padding-left: 0;
+            margin-bottom: 0;
+            list-style: none;
+            width: 0px;
+            margin-left: 0px;
+
+            position: relative;
+            width: 100%;
+            height: 0px;
+            
+
+            left: -1000px;
+            text-align: center;
+            transition: height 0.8s;
+        }
+        .menu_area nav a {
+            background-color: black;
+            color: white;
+            margin-bottom: 9px;
+            margin-top: 9px;
+        }
+        .menu_area nav a:hover{
+            background: #c5e267;
+            color: black;
+        }
+
+        .form-inline {
+            display: -ms-flexbox;
+            display: flex;
+            -ms-flex-flow: row wrap;
+            flex-flow: row wrap;
+            -ms-flex-align: center;
+            align-items: center;
+            width: 0px;
+        }
+        .form-control {
+            min-width: 150px;
+            text-align: center;
+        }
+        .menu_area button:hover{
+            background: #c5e267;
+            color: black;
+        }
+
+        .menu_area .pesq{
+            width: 310px;
+            margin-top: 23px;
+            margin-left: 185px;
+        }
+
+
+
+
+        /* -- Carousel -- */
+        .lancamentos{
+            height: 730px;
+            margin-bottom: 20px;
+            background: black;
+            color: white;
+        }
+
+        .videos {
+            -ms-flex: 0 0 100%;
+            flex: 0 0 100%;
+            max-width: 85%;
+            height: 336px;
+            margin-left: 42px;
+        }
+
+        .slide{
+            margin-left: 8px;
+        }
+        .infos{
+            max-width: 85%;
+            margin-left: 50px;
+            margin-top: 30px;
+            min-height: 100%;
+        }
+        .carousel-inner {
+            height: 680px;
+        }
+        .carousel-control-prev {
+            left: -8px;
+            width: 5%;
+        }
+        .carousel-control-next {
+            right: 0px;
+            width: 5%;
+        }
+
+        /* -- Destaques -- */
+
+        .destaque{
+            height: 990px;
+        }
+            /* -- Destaques - Título -- */
+            .titulo_destaque{
+                margin-left: -450px;
+        
+            }
+            .dropdown-toggle {
+                margin-left: 998px;
+            }
+
+            /*-- Destaques - Cards -- */
+            .carregar_dest a{
+                margin-left: 0px;
+            }
+
+            /*-- Destaques - Cards -- */
+            .destaque .card img{
+                width: 285px;
+                height: 400px;
+            }
+            .destaque .card{
+                margin-bottom: 30px;
+                margin-left: 15px;
+            }
+            .cards_1_dest .card, .card img {
+                width: 287px;
+            }
+            .carregar_dest a {
+                margin-left: 15px;
+                margin-top: -10px;
+            }
+
+
+
+        /* -- Avaliações -- */
+            /* -- Avaliações - Título -- */
+            .titulo_avaliacoes{
+                margin-left: -324px;
+            }
+
+            /* -- Avaliações - Cards -- */
+            .avaliacoes{
+                width: 98%;
+                height: 1040px;
+                margin-left: 16px;
+                margin-top: 10px;
+            }
+            .avaliacoes .card{
+                margin-bottom: 20px;
+                width: 100%;
+                height: 455px;
+            }
+            .avaliacoes img{
+                width: 90px;
+                height: 90px;
+                margin-top: 10px;
+                margin-left: 114px;
+            }
+            .avaliacoes .cc{
+                margin-left: 172px;
+            }
+            .avaliacoes .carregar_av{
+                margin-top: -25px;
+            }
+
+            .avaliacoes h5{
+                width: 100%;
+                text-align: center;
+            }
+            .avaliacoes p{
+                width: 100%;
+                text-align: center;
+                overflow: hidden;
+                text-overflow: clip;
+            }
+
+            .avaliacoes .titulo{
+                width: 320px;
+                height: 30px;
+                margin-bottom: 0px;
+                text-align: center;
+                margin-left: 0px;
+            }
+            .carregar_av a{
+                margin-left: 220px;
+            }
+
+
+
+        /* -- Entrevistas -- */
+            /* -- Entrevistas - Título -- */
+            .titulo_entrevistas{
+                font-weight: 500;
+                line-height: 0.2;
+                margin-left: -250px;
+            }
+
+            /* -- Entrevistas - Cards -- */
+            .entrevistas{
+                width: 100%;
+                height: 800px;
+                margin-left: 15px;
+                margin-top: 10px;
+            }
+            .entrevistas .card{
+                width: 95%;
+                border-radius: 15px;
+                margin-left: -7px;
+                height: 350px;
+            }
+            .entrevistas .alone .card{
+                margin-left: 170px;
+            }
+            .carregar_entr a{
+                margin-left: 220px;
+            }
+            .entrevistas .infos_ent{
+                margin-top: 175px;
+                margin-left: -310px;
+            }
+            .entrevistas iframe{
+                width: 100%;
+                height: 42%;
+            }
+
+
+
+        /* -- Novidades -- */
+            /* -- Novidades - Conteúdo -- */
+
+            .novidades img{
+                width: 208px;
+                height: 130px;
+                margin-bottom: 20px;
+                margin-top: 10px;
+            }
+            
+            /* -- Sobre e Editorial -- */
+            .col_sobredi{
+                margin-left: 0px;
+                min-width: 38.5%;
+            }
+
+            /* -- Editorial -- */
+                /* -- Editorial - Conteúdo -- */
+                .edi_cont{
+                    color: white;
+                    text-align: justify;
+                    width: 100%;
+                    margin-left: 38px;
+                }
+                .edi_cont i{
+                    font-size: x-large;
+                    margin-right: 20px;
+                }
+                .edi_cont .redes i{
+                    margin-top: 15px;
+                }
+                .edi_cont a{
+                    color: white;
+                }
+                
+
+
+
+    }
+
+/*                                              -- MEDIA QUERIES -- 
+                                                -------------------
+*/
+
+    @media screen and (min-width:992px) and (max-width: 1199px) {
+
+        /* -- Menu Mobile -- */
+        .menu_area .pesq{
+            width: 310px;
+            margin-left: 522px;
+        }
+        .menu_area .nav{
+            margin-left: 30px;
+        }
+        .form-inline {
+            width: 200px;
+        }
+
+
+        /* -- Lançamentos -- */
+        .carousel-inner .videos {
+            margin-left: 15px;
+        }
+        .slide{
+            margin-left: 15px;
+        }
+        .lancamentos iframe {
+            margin-left: 10px;
+            margin-top: 3px;
+            max-width: 104%;
+            max-height: 100%;
+            display: block;
+        }
+        .carousel-control-prev {
+            left: -68px;
+        }
+        .carousel-control-next {
+            right: -9px;
+        }
+        
+        /* -- Destaques -- */
+            /* -- Destaques - Título -- */
+            .titulo_destaque{
+                margin-left: -685px;
+            }
+            .dropdown-toggle {
+                margin-left: 1450px;
+            }
+
+            /*-- Destaques - Cards -- */
+            .destaque .card img{
+                width: 202px;
+                height: 282px;
+            }
+
+            .cards_1_dest .card, .card img {
+
+                height: 350px;
+            }
+
+
+        /* -- Avaliações -- */
+            /* -- Avaliações - Título -- */
+            .titulo_avaliacoes{
+                font-weight: 500;
+                margin-left: -570px;
+            }
+
+            /* -- Avaliações - Cards -- */
+            .avaliacoes{
+                width: 98%;
+                height: 620px;
+                margin-left: 16px;
+                margin-top: 10px;
+            }
+           
+            .avaliacoes h5{
+                width: 100%;
+                text-align: center;
+            }
+            .avaliacoes p{
+                width: 103%;
+                text-align: initial;
+            }
+            .avaliacoes .titulo{
+                width: 280px;
+                height: 30px;
+                margin-bottom: 0px;
+                text-align: center;
+                margin-left: 0px;
+            }
+
+            .avaliacoes .texto{
+                padding: 15px;
+                margin-top: -15px;
+            }
+            .avaliacoes .card{
+                margin-bottom: 20px;
+                width: 100%;
+                height: 540px;
+            }
+            .avaliacoes img{
+                width: 84px;
+                height: 84px;
+                margin-top: 10px;
+                margin-left: 95px;
+            }
+            .carregar_av a{
+                margin-top: -34px;
+                margin-bottom: -5px;
+                width: 206px;
+                margin-left: -7px;
+            }
+
+        
+        /* -- Entrevistas -- */
+            /* -- Entrevistas - Título -- */
+            .titulo_entrevistas{
+                font-weight: 500;
+                line-height: 0.2;
+                margin-left: -495px;
+            }
+
+            /* -- Entrevistas - Cards -- */
+            .entrevistas{
+                width: 100%;
+                height: 405px;
+                margin-left: 15px;
+                margin-top: 10px;
+            }
+            .entrevistas .card{
+                width: 95%;
+                border-radius: 15px;
+                margin-left: -7px;
+                height: 340px;
+            }
+            .entrevistas .infos_ent{
+                margin-top: 170px;
+                margin-left: -275px;
+            }
+    
+
+
+        /* -- Novidades -- */
+        .col_novis{
+            margin-left: 0px;
+        }
+
+        /* -- Novidades - Conteúdo -- */
+        .novidades img{
+            width: 160px;
+            height: 100px;
+            margin-bottom: 20px;
+            margin-top: 10px;
+        }
+        .novidades .materia{
+            color: white;
+            text-align: justify;
+        }
+
+        /* -- Sobre e Editorial -- */
+        .col_sobredi{
+            margin-left: 20px;
+            min-width: 39.5%;
+        }
+        
+        
+}
+
+
+
+
+/*Problemas a concertar: 
+    <768 o jeito que o menu abre não é deslizando
+*/

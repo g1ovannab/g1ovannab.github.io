@@ -1,0 +1,834 @@
+body{
+    background: black;
+    text-align: center;
+    width: 100%;
+}
+
+/* -- Cabeçalho -- */
+.header{
+    background: black;
+    text-align: center;
+    margin-bottom: 20px;
+    border-style: solid;
+    border-color: #c5e267;
+    border-radius: 20px;
+    border-width: 2px;
+}
+
+    /* -- Logo -- */
+    .logo{
+        width: 150px;
+    }
+
+
+
+    /* -- Menu e Pesquisa: Geral -- */
+    
+        /* -- Mobile -- */
+        #check{
+            display: none;
+        }
+        .checkbtn{
+            display: none;
+        }
+
+    .menu_area{
+        margin-top: 8px;
+    }
+    .menu_area .nav{
+        display: -ms-flexbox;
+        display: flex;
+        -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+        padding-left: 0;
+        margin-bottom: 0;
+        list-style: none;
+        width: 742px;
+        margin-left: 168px;
+    }
+    .nav-pills .nav-link {
+        border-radius: 12px;
+    }
+    .menu_area nav a{
+        background-color: black;
+        color: white;
+        margin-bottom: 10px;
+        margin-top: 10px;
+    }
+    .menu_area nav a:hover{
+        background: #c5e267;
+        color: black;
+    }
+    .form-control{
+        border-radius: 12px;
+    }
+    .form-inline {
+        display: -ms-flexbox;
+        display: flex;
+        -ms-flex-flow: row wrap;
+        flex-flow: row wrap;
+        -ms-flex-align: center;
+        align-items: center;
+        width: 310px;
+    }
+    .form-control {
+        min-width: 100px;
+        text-align: center;
+    }
+    .menu_area button{
+        border-radius: 12px;
+    }
+    .menu_area button:hover{
+        background: #c5e267;
+        color: black;
+        border-radius: 12px;
+    }
+    .menu_area .pesq{
+        width: 310px;
+        margin-top: 8px;
+        margin-left: 660px;
+    }
+
+
+
+/* -- Main -- */
+
+    /* -- Lançamentos: Título -- */
+    .titulo_lancamentos{
+        background: black;
+        text-align: center;
+        padding: 15px;
+        color: white;
+    }
+
+    /* -- Lançamentos: Carousel -- */
+    .carousel-indicators{
+        background: black;
+    }
+    .carousel-indicators .active{
+        background: #8acbda !important;
+    }
+    .carousel-control-prev-icon{
+        background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='%238acbda' viewBox='0 0 8 8'%3E%3Cpath d='M5.25 0l-4 4 4 4 1.5-1.5-2.5-2.5 2.5-2.5-1.5-1.5z'/%3E%3C/svg%3E");
+    }
+    .carousel-control-next-icon{
+        background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='%238acbda' viewBox='0 0 8 8'%3E%3Cpath d='M2.75 0l-1.5 1.5 2.5 2.5-2.5 2.5 1.5 1.5 4-4-4-4z'/%3E%3C/svg%3E");
+    }
+
+    .titulo_lancamentos{
+        border-radius: 20px;
+    }
+    .col_lan{
+        border-style: solid;
+        border-color: #8acbda;
+        border-radius: 20px;
+        border-width: 2px;
+        margin-bottom: 20px;
+    }
+    .lancamentos li{
+        border-radius: 150px;
+    }
+    .lancamentos{
+        height: 360px;
+        margin-bottom: 20px;
+        background: black;
+        color: white;
+    }
+    .post{
+        max-width: 47%;
+        margin-left: 27px;
+        height: 318px;
+        text-align: initial;
+        margin-top: 16px;
+    }
+    .lancamentos iframe {
+        margin-left: 10px;
+        margin-top: 10px;
+        max-width: 160%;
+        display: block;
+    }
+
+    /* -- Sobre e Editorial -- */
+    .col_sobredi{
+        border-style: solid;
+        border-color: #d479b5;
+        border-radius: 20px;
+        border-width: 2px;
+        margin-bottom: 20px;
+    }
+
+        /* -- Sobre e Editorial - Títulos -- */
+        .titulo_sobre, .titulo_edi{
+            margin-top: 15px;
+            color: white;
+            margin-bottom: .5rem;
+            font-weight: 500;
+            line-height: 0.2;
+            margin-left: 22px;
+        }
+
+
+    /* -- Sobre -- */
+
+        /* -- Sobre - Título -- */
+
+        /* -- Sobre - Conteúdo -- */
+        .sobre_cont{
+            color: white;
+            text-align: justify;
+            width: 100%;
+            margin-left: 0px;
+            height: 50px;
+        }
+        .sobre_cont p{
+            width: 95%;
+            margin-left: 25px;
+        }
+
+    /* -- Editorial -- */
+        /* -- Editorial - Conteúdo -- */
+        .edi_cont{
+            color: white;
+            text-align: justify;
+            width: 100%;
+            margin-left: 38px;
+        }
+        .edi_cont i{
+            font-size: x-large;
+            margin-right: 20px;
+        }
+        .edi_cont .redes i{
+            margin-top: 15px;
+        }
+        .edi_cont a{
+            color: white;
+        }
+
+
+/* -- Rodapé -- */
+.footer{
+    background: black;
+    color: white;
+    text-align: center;
+    margin-bottom: 20px;
+    border-style: solid;
+    border-color: #d479b5;
+    border-radius: 20px;
+    border-width: 2px;
+}
+
+
+.footer img{
+    width: 100px;
+}
+
+.footer .footer_area{
+    margin-top: 25px;
+}
+
+
+
+/*                                              -- MEDIA QUERIES -- 
+                                                -------------------
+*/
+    @media screen and (max-width:335px){
+        /* -- Menu Mobile -- */
+        .checkbtn{
+            display: block;
+            font-size: 30px;
+            color: white;
+            float: right;
+            line-height: 40px;
+            margin-right: 20px;
+            margin-top: 12px;
+            margin-bottom: 0px;
+            cursor: pointer;
+        }
+        #check{
+            display: none;
+        }
+        #checkbox{
+            display: inline;
+        }
+        #check:checked ~ .nav{
+            left: 0;
+            height: 350px;
+            transition: .01s left;
+        }
+
+        .menu_area .btn{
+            width: 20%;
+        }
+
+        /* -- Header -- */
+        .menu_area nav{
+            display: absolute;
+            width: 100%;
+            height: 100%;
+        }
+        .header .menu_area{
+            margin-top: 0px;
+            flex-wrap: wrap;
+            align-items: center;
+            top: 0px;
+            left: 0px;
+            
+        }
+        .menu_area .nav{
+            display: flex;
+            -ms-flex-wrap: wrap;
+            flex-wrap: wrap;
+            padding-left: 0;
+            margin-bottom: 0;
+            list-style: none;
+            width: 0px;
+            margin-left: 0px;
+
+            position: relative;
+            width: 100%;
+            height: 15px;
+            
+            left: -1000px;
+            text-align: center;
+            transition: height 0.5s;
+        }
+        .menu_area nav a {
+            background-color: black;
+            color: white;
+            margin-bottom: 9px;
+            margin-top: 9px;
+            transition: all;
+        }
+        .menu_area nav a:hover{
+            background: #c5e267;
+            color: black;
+        }
+        .form-inline {
+            display: -ms-flexbox;
+            display: flex;
+            -ms-flex-flow: row wrap;
+            flex-flow: row wrap;
+            -ms-flex-align: center;
+            align-items: center;
+            width: 0px;
+        }
+        .form-control {
+            max-width: 150px;
+            text-align: center;
+            margin-right: 5px;
+        }
+        .menu_area button:hover{
+            background: #c5e267;
+            color: black;
+        }
+        .menu_area .pesq{
+            width: 280px;
+            margin-top: 8px;
+            margin-left: 20px;
+        }
+        
+
+
+
+        /* -- Lançamentos -- */
+        .titulo_lancamentos h1{
+            font-size: xx-large;
+        }
+            .titulo_lancamentos h1{
+                font-size: xx-large;
+            }
+            .titulo_lancamentos{
+                margin-bottom: -15px;
+            }
+            .lancamentos{
+                height: 47pc;
+                margin-bottom: 20px;
+                background: black;
+                color: white;
+            }
+            .post{
+                max-width: 100%;
+                margin-left: 0px;
+                text-align: center;
+                margin-top: -170px;
+            }
+            .lancamentos iframe {
+                margin-left: 10px;
+                margin-top: 0px;
+                width: 93%;
+                display: block;
+                height: 53%;
+            }        
+            
+
+            /* -- Editorial - Título -- */
+            .row.titulo_edi{
+                width: 90%;
+                margin-left: 6%;
+                padding: 5px;
+            }
+            .titulo_edi h1{
+                font-size: x-large;
+            }
+            .edi_cont i{
+                font-size: large;
+                margin-right: 10px;
+            }
+
+    }
+    
+/*                                              -- MEDIA QUERIES -- 
+                                                -------------------
+*/
+
+    @media screen and (min-width:336px) and (max-width:575px){ 
+        body{
+            width: 99%;
+        }
+        /* -- Menu Mobile -- */
+        .checkbtn{
+            display: block;
+            font-size: 30px;
+            color: white;
+            float: right;
+            line-height: 40px;
+            margin-right: 0px;
+            margin-top: -39px;
+            margin-bottom: 0px;
+        }
+        #check{
+            display: none;
+        }
+        #checkbox{
+            display: inline;
+        }
+        #check:checked ~ .nav{
+            left: 0;
+            height: 350px;
+            transition: .01s left;
+        }
+
+        /* -- Header -- */
+        .menu_area nav{
+            display: absolute;
+            width: 100%;
+            height: 100%;
+        }
+        .header .menu_area{
+            margin-top: 0px;
+            flex-wrap: wrap;
+            align-items: center;
+            top: 0px;
+            left: 0px;
+        }
+        .menu_area .nav{
+            display: flex;
+            -ms-flex-wrap: wrap;
+            flex-wrap: wrap;
+            padding-left: 0;
+            margin-bottom: 0;
+            list-style: none;
+            width: 0px;
+            margin-left: 0px;
+
+            position: relative;
+            width: 100%;
+            height: 15px;
+
+            left: -1000px;
+            text-align: center;
+            transition: height .5s;
+        }
+        .menu_area nav a {
+            background-color: black;
+            color: white;
+            margin-bottom: 9px;
+            margin-top: 9px;
+
+        }
+        .menu_area nav a:hover{
+            background: #c5e267;
+            color: black;
+        }
+        .form-inline {
+            display: -ms-flexbox;
+            display: flex;
+            -ms-flex-flow: row wrap;
+            flex-flow: row wrap;
+            -ms-flex-align: center;
+            align-items: center;
+            width: 0px;
+        }
+        .form-control {
+            width: 55%;
+            text-align: center;
+            margin-right: 10px;
+        }
+        .menu_area button:hover{
+            background: #c5e267;
+            color: black;
+        }
+        .menu_area .pesq {
+            margin-top: 8px;
+            margin-left: 0px;
+            min-width: 250px;
+            max-width: 565px;
+            width: 90%;
+        }
+        .menu_area{
+            display: inline;
+        }
+
+
+        /* -- Lançamentos -- */
+        .titulo_lancamentos h1{
+            font-size: xx-large;
+        }
+            .titulo_lancamentos h1{
+                font-size: xx-large;
+            }
+            .titulo_lancamentos{
+                margin-bottom: -15px;
+            }
+            .lancamentos{
+                height: 45pc;
+                margin-bottom: 20px;
+                background: black;
+                color: white;
+            }
+            .post{
+                max-width: 100%;
+                margin-left: 0px;
+                text-align: center;
+                margin-top: -142px;
+            }
+            .lancamentos iframe {
+                margin-left: 10px;
+                margin-top: 0px;
+                max-width: 96%;
+                display: block;
+            }        
+            
+            /* -- Editorial - Título -- */
+            .row.titulo_edi{
+                width: 90%;
+                margin-left: 4%;
+                padding: 10px;
+            }
+            .titulo_edi h1{
+                font-size: x-large;
+            }
+
+    }
+
+/*                                              -- MEDIA QUERIES -- 
+                                                -------------------
+*/
+
+    @media screen and (min-width:576px) and (max-width:767px){ 
+        /* -- Menu Mobile -- */
+        .checkbtn{
+            display: block;
+            font-size: 30px;
+            color: white;
+            float: right;
+            line-height: 40px;
+            margin-right: 0px;
+            margin-top: -39px;
+            cursor: pointer;
+        }
+        #check{
+            display: none;
+        }
+        #checkbox{
+            display: inline;
+        }
+        #check:checked ~ .nav{
+            left: 0;
+            display: inline;
+            transition: height .01s;
+        }
+
+
+        /* -- Outros -- */
+        .menu_area nav{
+            display: absolute;
+            width: 100%;
+            height: 100%;
+
+        }
+        .header .menu_area{
+            margin-top: 0px;
+            /*display: flex;
+            position: fixed;*/
+            flex-wrap: wrap;
+            align-items: center;
+            top: 0px;
+            left: 0px;
+        }
+        .menu_area .nav{
+            display: flex;
+            -ms-flex-wrap: wrap;
+            flex-wrap: wrap;
+            padding-left: 0;
+            margin-bottom: 0;
+            list-style: none;
+            width: 0px;
+            margin-left: 0px;
+
+            position: relative;
+            width: 100%;
+            height: 10px;
+            
+            left: -1000px;
+            text-align: center;
+            transition: height .5s;
+        }
+        .menu_area nav a {
+            background-color: black;
+            color: white;
+            margin-bottom: 9px;
+            margin-top: 9px;
+        }
+        .menu_area nav a:hover{
+            background: #c5e267;
+            color: black;
+        }
+        .form-inline {
+            display: -ms-flexbox;
+            display: flex;
+            -ms-flex-flow: row wrap;
+            flex-flow: row wrap;
+            -ms-flex-align: center;
+            align-items: center;
+            width: 0px;
+        }
+
+        .form-inline .form-control {
+            display: inline-block;
+            width: 55%;
+            vertical-align: middle;
+        }
+
+        .menu_area button:hover{
+            background: #c5e267;
+            color: black;
+        }
+        
+        .menu_area .pesq {
+            margin-top: 8px;
+            margin-left: 0px;
+            min-width: 460px;
+            max-width: 787px;
+            width: 90%;
+        }
+
+        /* -- Carousel -- */
+        .titulo_lancamentos h1{
+            font-size: xx-large;
+        }
+        .titulo_lancamentos{
+            margin-bottom: -15px;
+        }
+        .lancamentos{
+            height: 630px;
+            margin-bottom: 20px;
+            background: black;
+            color: white;
+        }
+        .post{
+            max-width: 100%;
+            margin-left: 0px;
+            height: 318px;
+            text-align: center;
+            margin-top: 5px;
+        }
+        .lancamentos iframe {
+            margin-left: 10px;
+            margin-top: 0px;
+            max-width: 96%;
+            display: block;
+        }        
+    }
+
+/*                                              -- MEDIA QUERIES -- 
+                                                -------------------
+*/
+
+    @media screen and (min-width:768px) and (max-width:991px){ /*CONCERTAR MENU MOBILE*/
+        
+        /* -- Menu Mobile -- */
+        .checkbtn{
+            display: block;
+            font-size: 30px;
+            color: white;
+            float: right;
+            line-height: 40px;
+            margin-right: 15px;
+            margin-top: 7px;
+            margin-bottom: 0px;
+            cursor: pointer;
+        }
+        #check{
+            display: none;
+        }
+        #checkbox{
+            display: inline;
+        }
+        #check:checked ~ .nav{
+            text-align: center;
+            left: 0;
+            display: inline-block;
+            margin-top: 0px;
+            height: 308px;
+            transition: height 0.01s;
+        }
+
+
+
+        /* -- Outros -- */
+        .menu_area nav{
+            display: absolute;
+            width: 100%;
+            height: 100%;
+
+        }
+        .header .menu_area{
+            margin-top: 0px;
+            /*display: flex;
+            position: fixed;*/
+            flex-wrap: wrap;
+            align-items: center;
+            top: 0px;
+            left: 0px;
+        }
+        .menu_area .nav{
+            display: flex;
+            -ms-flex-wrap: wrap;
+            flex-wrap: wrap;
+            padding-left: 0;
+            margin-bottom: 0;
+            list-style: none;
+            width: 0px;
+            margin-left: 0px;
+
+            position: relative;
+            width: 100%;
+            height: 0px;
+            
+
+            left: -1000px;
+            text-align: center;
+            transition: height 0.8s;
+        }
+        .menu_area nav a {
+            background-color: black;
+            color: white;
+            margin-bottom: 9px;
+            margin-top: 9px;
+        }
+        .menu_area nav a:hover{
+            background: #c5e267;
+            color: black;
+        }
+
+        .form-inline {
+            display: -ms-flexbox;
+            display: flex;
+            -ms-flex-flow: row wrap;
+            flex-flow: row wrap;
+            -ms-flex-align: center;
+            align-items: center;
+            width: 0px;
+        }
+        .form-control {
+            min-width: 150px;
+            text-align: center;
+        }
+        .menu_area button:hover{
+            background: #c5e267;
+            color: black;
+        }
+
+        .menu_area .pesq{
+            width: 310px;
+            margin-top: 23px;
+            margin-left: 185px;
+        }
+
+
+
+
+        /* -- Carousel -- */
+        .titulo_lancamentos{
+            margin-bottom: 20px;
+        }
+        .lancamentos{
+            height: 630px;
+            margin-bottom: 20px;
+            background: black;
+            color: white;
+        }
+        .post{
+            max-width: 100%;
+            margin-left: 0px;
+            height: 318px;
+            text-align: center;
+            margin-top: 20px;
+        }
+        .lancamentos iframe {
+            margin-left: 8px;
+            margin-top: 0px;
+            min-width: 98%;
+            display: block;
+        }        
+
+
+    }
+
+/*                                              -- MEDIA QUERIES -- 
+                                                -------------------
+*/
+
+    @media screen and (min-width:992px) and (max-width: 1199px) {
+
+        /* -- Menu Mobile -- */
+        .menu_area .pesq{
+            width: 310px;
+            margin-left: 522px;
+        }
+        .menu_area .nav{
+            margin-left: 30px;
+        }
+        .form-inline {
+            width: 200px;
+        }
+
+
+        /* -- Lançamentos -- */
+        .titulo_lancamentos{
+            margin-bottom: 20px;
+        }
+        .lancamentos{
+            height: 380px;
+            margin-bottom: 20px;
+            background: black;
+            color: white;
+        }
+        .post{
+            max-width: 45%;
+            margin-left: 528px;
+            height: 318px;
+            text-align: initial;
+            margin-top: -362px;
+        }
+        .lancamentos iframe {
+            margin-left: 10px;
+            margin-top: 10px;
+            max-width: 110%;
+            display: block;
+        }        
+        
+        
+        
+}

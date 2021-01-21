@@ -1,0 +1,587 @@
+<!DOCTYPE html>
+
+<html lang="pt-br">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title>Movie World</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+        integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+    <link rel="stylesheet" href="../styles/style_index.css">
+    <script src="https://kit.fontawesome.com/ba61d5c5fe.js" crossorigin="anonymous"></script>
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+</head>
+
+
+
+
+<body>
+
+    <!-- Cabeçalho -->
+    <!--CONCERTAR A BARRA DE PESQUISA-->
+    <header class="container header">
+        <div class="row">
+            <div class="col-12 header_area">
+                <div class="row">
+
+                    <!-- Logo -->
+                    <div class="col-12 col-sm-12 col-md-4 col-lg-2">
+                        <a class="logo-brand" href="index.html"><img src="imgs/logo.PNG" class="logo"></a>
+                    </div>
+
+                    <!-- Menu e Pesquisa -->
+                    <div class="col-12 col-sm-12 col-md-8 col-lg-10 menu_area">
+
+                        <form class="form-inline pesq">
+                            <input class="form-control mr-sm-2" type="search" placeholder="Pesquisar filme"
+                                aria-label="Search">
+                            <button type="submit" class="btn btn-outline-light"><i class="fa fa-search"></i></button>
+
+                        </form>
+
+                        <input type="checkbox" id="check">
+                        <label for="check" class="checkbtn">
+                            <i class="fa fa-bars"></i>
+                        </label>
+
+                        <nav class="nav nav-pills flex-column flex-sm-row active" id="links-menu">
+                            <a class="flex-sm-fill text-sm-center nav-link" href="index.html">Home</a>
+                            <a class="flex-sm-fill text-sm-center nav-link" href="pages/lancamentos.html">Lançamentos</a>
+                            <a class="flex-sm-fill text-sm-center nav-link" href="pages/destaque.html">Em Destaque</a>
+                            <a class="flex-sm-fill text-sm-center nav-link" href="pages/avaliacoes.html">Avaliações</a>
+                            <a class="flex-sm-fill text-sm-center nav-link" href="pages/entrevistas.html">Entrevistas & Making
+                                Of</a>
+                            <a class="flex-sm-fill text-sm-center nav-link" href="pages/novidades.html">Novidades</a>
+                        </nav>
+
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+
+
+    <!-- Corpo -->
+    <main class="container main">
+        <div class="row">
+
+            <!--LANÇAMENTOS-->
+            <div class="col-12 col_lan">
+                <!--Lançamentos - Título-->
+                <div class="row titulo_lancamentos">
+                    <div class="col-12">
+                        <h1>Lançamentos</h1>
+                    </div>
+                </div>
+                <!--Lançamentos - Carousel-->
+                <div class="row lancamentos">
+                    <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+                        <ol class="carousel-indicators">
+                            <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+                            <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+                            <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+                            <li data-target="#carouselExampleIndicators" data-slide-to="3"></li>
+                        </ol>
+                        <div class="carousel-inner">
+                            <div class="carousel-item active">
+                                <div class="row">
+                                    <div class="col-12 col-sm-12 col-md-6 col-lg-6 videos">
+                                        <iframe width="560" height="315" src="https://www.youtube.com/embed/8XrFAXykgoc"
+                                            frameborder="0"
+                                            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                                            allowfullscreen></iframe>
+                                    </div>
+
+                                    <div class="col-12 col-sm-12 col-md-12 col-lg-6 infos">
+                                        <a href="movies/wonderwoman.html">
+                                            <h3>Mulher-Maravilha 1984</h3>
+                                        </a>
+                                        <p><b>Sinopse:</b> Diana Prince/Mulher-Maravilha
+                                            em 1984, durante a Guerra Fria, entra em conflito com dois
+                                            grande inimigos - o empresário de mídia Maxwell Lord e a
+                                            amiga que virou inimiga Barbara Minerva/Cheetah - enquanto se
+                                            reúne com seu interesse amoroso Steve Trevor.</p>
+
+                                        <p><b>Diretor:</b> Patty Jenkins <b><br>Roteiro:</b> Patty Jenkins e Dave
+                                            Callaham
+                                            <br><b>Estreia:</b> Outubro 2020</p>
+                                        <p><b>Elenco:</b> Gal Gadot | Chris Pine | Krinten Wiig </p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="carousel-item">
+                                <div class="row">
+                                    <div class="col-12 col-sm-12 col-md-6 col-lg-6 videos">
+                                        <iframe width="560" height="315" src="https://www.youtube.com/embed/FlriFMTIPOg"
+                                            frameborder="0"
+                                            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                                            allowfullscreen></iframe>
+                                    </div>
+
+                                    <div class="col-12 col-sm-12 col-md-12 col-lg-6 infos">
+                                        <a href="movies/007.html">
+                                            <h3>007 - Sem Tempo para Morrer</h3>
+                                        </a>
+                                        <p><b>Sinopse:</b> O famoso espião James Bond deixou o serviço e
+                                            está vivendo de forma calma e pacífica na Jamaica. Como tudo que é bom dura
+                                            pouco, quando o enigmático Safin aparece com uma tecnologia
+                                            perigosa, seu amigo da CIA, Felix Leiter, pede ajuda.
+                                            Então, o antigo 007 precisa abandonar seu novo modo de vida para ingressar
+                                            na missão.</p>
+
+                                        <p><b>Diretor:</b> Cary Joji Fukunaga <b><br>Roteiro:</b> Cary Fukunaga
+                                            <br><b>Estreia:</b> Novembro 2020</p>
+                                        <p><b>Elenco:</b> Daniel Craig | Rami Malek | Léa Seydoux</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="carousel-item">
+                                <div class="row">
+                                    <div class="col-12 col-sm-12 col-md-6 col-lg-6 videos">
+                                        <iframe width="560" height="315" src="https://www.youtube.com/embed/U_SsfAp_F9Y"
+                                            frameborder="0"
+                                            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                                            allowfullscreen></iframe>
+                                    </div>
+
+                                    <div class="col-12 col-sm-12 col-md-12 col-lg-6 infos">
+                                        <a href="movies/duna.html">
+                                            <h3>Duna</h3>
+                                        </a>
+                                        <p><b>Sinopse:</b> No futuro distante da humanidade, o duque Leto Atreides
+                                            aceita a administração do perigoso planeta deserto Arrakis, a única fonte da
+                                            substância mais valiosa do universo, "Melange", uma droga que prolonga a
+                                            vida humana e fornece níveis acelerados de pensamento.</p>
+
+                                        <p><b>Diretor:</b> Denis Villeneuve <b><br>Roteiro:</b> Eric Roth, Jon Spaihts e
+                                            Denis Villeneuve
+                                            <br><b>Estreia:</b> Dezembro 2020</p>
+                                        <p><b>Elenco:</b> Timothée Chalamet | Rebecca Ferguson | Oscar Isaac | Dave
+                                            Bautista | Zendaya </p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="carousel-item">
+                                <div class="row">
+                                    <div class="col-12 col-sm-12 col-md-6 col-lg-6 videos">
+                                        <iframe width="560" height="315" src="https://www.youtube.com/embed/jQ8CCg1tOqc"
+                                            frameborder="0"
+                                            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                                            allowfullscreen></iframe>
+                                    </div>
+
+                                    <div class="col-12 col-sm-12 col-md-12 col-lg-6 infos">
+                                        <a href="movies/alive.html">
+                                            <h3>#Alive</h3>
+                                        </a>
+                                        <p><b>Sinopse:</b> Um jovem gamer precisa lutar por sua vida diante de um
+                                            apocalipse zumbi, se encontrando cercado em seu apartamento. Mas a situação
+                                            complica ainda mais quando a energia é cortada. Assim, ele não pode mais
+                                            acessar parentes e amigos online, jogar seu game ou se conectar com o mundo
+                                            exterior.</p>
+
+                                        <p><b>Diretor:</b> Cho IlHyung <b><br>Roteiro:</b> Cho IlHyung
+                                            <br><b>Estreia:</b> Setembro 2020</p>
+                                        <p><b>Elenco:</b> Yoo AhIn | Park ShinHye | Lee HyunWook </p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button"
+                            data-slide="prev">
+                            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                            <span class="sr-only">Previous</span>
+                        </a>
+                        <a class="carousel-control-next" href="#carouselExampleIndicators" role="button"
+                            data-slide="next">
+                            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                            <span class="sr-only">Next</span>
+                        </a>
+                    </div>
+                </div>
+            </div>
+
+            <!--EM DESTAQUE-->
+            <div class="col-12 col_dest">
+                <!--Em Destaque - Título-->
+                <div class="row titulo_destaque">
+                    <div class="col-12">
+                        <h1>Em destaque</h1>
+
+                        <button class="btn btn-outline-light dropdown-toggle" type="button" id="dropdownMenuButton"
+                            data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                            Categoria:
+                        </button>
+
+                        <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                            <a class="dropdown-item" href="destaque.html">Todos</a>
+                            <a class="dropdown-item" href="acao.html">Ação</a>
+                            <a class="dropdown-item" href="drama.html">Drama</a>
+                            <a class="dropdown-item" href="romance.html">Romance</a>
+                        </div>
+                    </div>
+                </div>
+
+                <!--Em Destaque-->
+                <div class="row destaque">
+                    <!--COLOCAR AS IMAGENS COMO LINK PARA UMA PUBLICAÇÃO OU TRAILER-->
+                    <div class="row cards_1_dest">
+                        <div class="col-12 col-sm-6 col-md-6 col-lg-3 dest">
+                            <div class="card">
+                                <a href="movies/alive.html">
+                                    <img src="imgs/alive.jpg" class="card-img-top" alt="">
+                                </a>
+                                <div class="card-body">
+                                    <a href="movies/alive.html">
+                                        <h5 class="card-title">Alive</h5>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col-12 col-sm-6 col-md-6 col-lg-3 dest">
+                            <div class="card">
+                                <a href="movies/devil.html">
+                                    <img src="imgs/devil.jpg" class="card-img-top" alt="">
+                                </a>
+                                <div class="card-body">
+                                    <a href="movies/devil.html">
+                                        <h5 class="card-title">The Devil All The Time</h5>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col-12 col-sm-6 col-md-6 col-lg-3 dest">
+                            <div class="card">
+                                <a href="movies/dilema.html">
+                                    <img src="imgs/o-dilema-das-redes-choque-assimilacao-solucao-social-media.jpeg"
+                                        class="card-img-top" alt="">
+                                </a>
+                                <div class="card-body">
+                                    <a href="movies/dilema.html">
+                                        <h5 class="card-title">O Dilema das Redes</h5>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col-12 col-sm-6 col-md-6 col-lg-3 dest">
+                            <div class="card">
+                                <a href="movies/aves.html">
+                                    <img src="imgs/Birds_of_Prey.jpg" class="card-img-top" alt="">
+                                </a>
+                                <div class="card-body">
+                                    <a href="movies/aves.html">
+                                        <h5 class="card-title">Aves de Rapina: Arleq...</h5>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+
+
+                        <div class="col-12 carregar_dest">
+                            <a class="flex-sm-fill text-sm-center nav-link carregar" href="pages/destaque.html">Carregar mais
+                                filmes</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!--AVALIAÇÕES-->
+            <div class="col-12 col_aval">
+                <!--Últimas Avaliações - Título-->
+                <div class="row titulo_avaliacoes">
+                    <div class="col-12">
+                        <h1>Últimas Avaliações</h1>
+                    </div>
+                </div>
+
+                <!--Últimas Avaliações-->
+                <div class="row avaliacoes">
+                    <div class="row cards_2_aval">
+                        <div class="col-12 col-sm-12 col-md-6 col-lg-4">
+                            <div class="row card">
+                                <img src="imgs/leo.jpg" class="card-img-top" alt="">
+                                <h5>Leonardo Coelho</h5>
+                                <h6>
+                                    <a href="movies/aves.html">
+                                        <p class="titulo"><b>Aves de Rapina: Arlequina e Su...</b></p>
+                                    </a>
+                                </h6>
+                                <p class="texto"><b>Avaliação: </b>Gostei muito do filme, pois contem humor na medida
+                                    certa em
+                                    momentos criticos do filme. Com o passar do filme temos cada vez mais empatia
+                                    pela protagonista devido aos acontecimentos, apesar de ser uma vilã. Tambem
+                                    gostei pelo fato de que os principais personagens serem mulheres. Só nao gostei
+                                    de um fato de que no filme o Coringa nao é retradado como Coringa, se fala
+                                    indiretamente dele.</p>
+                            </div>
+                        </div>
+
+                        <div class="col-12 col-sm-12 col-md-6 col-lg-4">
+                            <div class="row card">
+                                <img src="imgs/anna.jpg" class="card-img-top" alt="">
+                                <h5>Anna Fernanda</h5>
+                                <h6>
+                                    <a href="movies/half.html">
+                                        <p class="titulo short"><b>Você Nem Imagina</b></p>
+                                    </a>
+                                </h6>
+                                <p class="texto"><b>Avaliação: </b>PERFEITO, filme lindo, incrível, os diálogos são
+                                    absolutamente maravilhosos, a construção da relação. o filme é super sensível e
+                                    delicado, as personagens femininas principais são completas com personalidade e
+                                    super interessantes. Amo esse filme.</p>
+                            </div>
+                        </div>
+
+                        <div class="col-12 col-sm-12 col-md-6 col-lg-4 cc">
+                            <div class="row card">
+                                <img src="imgs/eu.jpg" class="card-img-top" alt="">
+
+                                <h5>Giovanna Bueno</h5>
+                                <h6>
+                                    <a href="movies/dilema.html">
+                                        <p class="titulo"><b>O Dilema das Redes</b></p>
+                                    </a>
+                                </h6>
+                                <p class="texto"><b>Avaliação: </b>Apesar de não gostar muito de documentários, esse
+                                    simplesmente me deixou perplexa. Claro que foi mostrado fatos que sempre
+                                    estiveram nas nossas caras (mesmo que fechemos os olhos para alguuns deles). Aborda,
+                                    de maneira a prender o telespectador, como a tecnologia afeta o cenário mundial em
+                                    grande escala.</p>
+                            </div>
+                        </div>
+
+
+                        <div class="col-12 carregar_av">
+                            <a class="flex-sm-fill text-sm-center nav-link" href="pages/avaliacoes.html">Carregar mais
+                                avaliações</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+
+            <!--ENTREVISTAS-->
+            <div class="col-12 col_entr">
+                <!--Entrevistas - Título-->
+                <div class="row titulo_entrevistas">
+                    <div class="col-12">
+                        <h1>Entrevistas & Making of</h1>
+                    </div>
+                </div>
+
+                <!--Entrevistas - Cards-->
+                <div class="row entrevistas">
+                    <div class="row cards_3_entr">
+                        <div class="col-12 col-sm-6 col-md-6 col-lg-4 try">
+                            <div class="row card">
+                                <div class="col-12 col-sm-12 col-md-12 col-lg-12">
+                                    <iframe src="https://www.youtube.com/embed/4AgkzRQRX9Q" frameborder="0"
+                                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                                        allowfullscreen></iframe>
+                                </div>
+
+                                <div class="col-12 col-sm-12 col-md-12 col-lg-12 infos_ent">
+                                    <a href="movies/devil.html">
+                                        <h5><b>Filme: </b>The Devil All the Time</h5>
+                                    </a>
+                                    <p><b>Diretor: </b>Antonio Campos<br><b>Roteiro: </b>Antonio Campos<br><b>Estreia:
+                                        </b>Setembro 2020</p>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col-12 col-sm-6 col-md-6 col-lg-4 try">
+                            <div class="row card">
+                                <div class="col-12 col-sm-12 col-md-12 col-lg-12">
+                                    <iframe src="https://www.youtube.com/embed/3-vQjzUmfF8" frameborder="0"
+                                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                                        allowfullscreen></iframe>
+                                </div>
+
+                                <div class="col-12 col-sm-12 col-md-12 col-lg-12 infos_ent">
+                                    <a href="movies/aves.html">
+                                        <h5><b>Filme: </b>Aves de Rapina: Arlequina e sua Emancipação Fabulosa</h5>
+                                    </a>
+                                    <p><b>Diretor: </b>Cathy Yan <b><br>Roteiro:</b> Christina Hodson<br><b>Estreia:
+                                        </b>Fevereiro 2020</p>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col-12 col-sm-6 col-md-6 col-lg-4 try alone">
+                            <div class="row card">
+                                <div class="col-12 col-sm-12 col-md-12 col-lg-12">
+                                    <iframe src="https://www.youtube.com/embed/DCF6bqPzCLU" frameborder="0"
+                                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                                        allowfullscreen></iframe>
+                                </div>
+
+                                <div class="col-12 col-sm-12 col-md-12 col-lg-12 infos_ent">
+                                    <h5><b>Filme: </b>Você Nem Imagina</h5>
+                                    <p><b>Diretor: </b>Alice Wu <b><br>Roteiro:</b> Alice Wu
+                                        <br><b>Estreia: </b>Maio 2020</p>
+                                </div>
+                            </div>
+                        </div>
+
+
+                        <div class="col-12 carregar_entr">
+                            <a class="flex-sm-fill text-sm-center nav-link" href="pages/entrevistas.html">Carregar mais
+                                entrevistas</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+
+            <!--NOVIDADES, SOBRE E EDITORIAL-->
+
+            <!--NOVIDADES-->
+            <div class="col-12 col-sm-12 col-md-12 col-lg-7 col_novis">
+                <!-- Novidades - Título -->
+                <div class="row titulo_novidades">
+                    <h1>Novidades</h1>
+                </div>
+
+                <!-- Novidades - Conteúdos -->
+                <div class="row novidades">
+                    <div class="col-12 col-sm-4 col-md-4 col-lg-4">
+                        <img src="imgs/downtown.jpg" class="card-img-top" alt="">
+                    </div>
+                    <div class="col-12 col-sm-8 col-md-8 col-lg-8 materia">
+                        <a href="pages/novidades.html">
+                            <h4>Shopping 'Downtown' no Rio terá cinema ao ar livre.</h4>
+                        </a>
+                        <p>O Shopping Downtown, localizado na Barra da Tijuca, Rio de Janeiro, se programa para, que no
+                            mês de Outubro, exiba filmes cult ao ar livre. </p>
+                        <!--Colocar tags-->
+                    </div>
+                </div>
+                <div class="row novidades">
+                    <div class="col-12 col-sm-4 col-md-4 col-lg-4">
+                        <img src="imgs/avatar.jpg" class="card-img-top" alt="">
+                    </div>
+                    <div class="col-12 col-sm-8 col-md-8 col-lg-8 materia">
+                        <a href="pages/novidades.html">
+                            <h4>Diretor de 'Avatar' já filmou 'Avatar 2' e 'Avatar 3' está quase pronto.</h4>
+                        </a>
+                        <p>James Camaron, diretor do filme 'Avatar', revela que as filmagens de 'Avatar 2' já foram
+                            encerradas e que 'Avatar 3' está bem proximo de encerrar.</p>
+                        <!--Colocar tags-->
+                    </div>
+                </div>
+                <div class="row novidades">
+                    <div class="col-12 col-sm-4 col-md-4 col-lg-4">
+                        <img src="imgs/fmf.jpg" class="card-img-top" alt="">
+                    </div>
+                    <div class="col-12 col-sm-8 col-md-8 col-lg-8 materia">
+                        <a href="pages/novidades.html">
+                            <h4>Autora de 'Fazendo Meu Filme' conta sobre adaptação para o cinema.</h4>
+                        </a>
+                        <p>Paula Pimenta, autora da série best-seller 'Fazendo Meu Filme' conta que o primeiro livro
+                            ganhará um longa, e que o roteiro já está escrito.</p>
+                        <!--Colocar tags-->
+                    </div>
+                </div>
+
+            </div>
+
+            <!--SOBRE E EDITORIAL-->
+            <div class="col-12 col-sm-12 col-md-12 col-lg-4 offset-lg-1 col_sobredi">
+
+                <!-- SOBRE -->
+                <div class="row sobre">
+                    <!-- Sobre - Título -->
+                    <div class="row titulo_sobre">
+                        <h1>Sobre</h1>
+                    </div>
+
+                    <!-- Sobre - Conteúdo -->
+                    <div class="row sobre_cont">
+                        Estudante do curso de Engenharia de Computação na PUC Minas, Giovanna Bueno criou o site com o
+                        propósito de treinar seu conhecimento de HTML e CSS. Com isso, o site 'Movie World' foi criado,
+                        com o objetivo de ser intuitivo, fácil e divertido - além de responsivo.
+                    </div>
+                </div>
+
+                <!-- EDITORIAL -->
+                <div class="row editorial">
+                    <!-- Editorial - Título -->
+                    <div class="row titulo_edi">
+                        <h1>Editorial</h1>
+                    </div>
+
+                    <!-- Editorial - Conteúdo -->
+                    <div class="row edi_cont">
+                        <div>
+                            <div class="row">
+                                <p><i class="fa fa-user" aria-hidden="true"></i><b> Redação: </b>Giovanna Bueno</p>
+                            </div>
+
+                            <div class="row">
+                                <p><i class="fa fa-user" aria-hidden="true"></i><b> Pesquisa: </b>Giovanna Bueno</p><br>
+                            </div>
+
+
+                            <div class="row">
+                                <p><i class="fa fa-user" aria-hidden="true"></i><b> Gerente: </b>Giovanna Bueno</p>
+                            </div>
+
+                            <div class="row">
+                                <h3>Redes Sociais:</h3>
+                            </div>
+
+                            <div class="row redes">
+                                <a href="https://facebook.com"><i class="fa fa-facebook-square"
+                                        aria-hidden="true"></i><br></a>
+                                <a href="https://twitter.com"><i class="fa fa-twitter"
+                                        aria-hidden="true"></i><br><br></a>
+                                <a href="https://instagram.com"><i class="fa fa-instagram"
+                                        aria-hidden="true"></i><br></i><br></a>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+
+
+
+        </div>
+    </main>
+
+
+    <!-- Rodapé -->
+    <footer class="container footer">
+        <div class="row">
+            <div class="col-12 col-sm-12 col-md-10 col-lg-10 footer_area">
+                Copyright 2020 - Todos os direitos reservados - Disciplina de Desenvolvimento de Interfaces Web - ICEI
+                PUC Minas
+            </div>
+
+            <div class="col-12 col-sm-12 col-md-2 col-lg-2">
+                <a class="logo-brand" href="index.html"><img src="imgs/logo.PNG" class="logo"></a>
+            </div>
+        </div>
+    </footer>
+
+
+    <!-- Bootstrap -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+        integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"
+        integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"
+        integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>

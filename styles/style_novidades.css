@@ -1,0 +1,883 @@
+body{
+    background: black;
+    text-align: center;
+    width: 100%;
+}
+
+/* -- Cabeçalho -- */
+.header{
+    background: black;
+    text-align: center;
+    margin-bottom: 20px;
+    border-style: solid;
+    border-color: #c5e267;
+    border-radius: 20px;
+    border-width: 2px;
+}
+
+    /* -- Logo -- */
+    .logo{
+        width: 150px;
+    }
+
+
+
+    /* -- Menu e Pesquisa: Geral -- */
+    
+        /* -- Mobile -- */
+        #check{
+            display: none;
+        }
+        .checkbtn{
+            display: none;
+        }
+
+    .menu_area{
+        margin-top: 8px;
+    }
+    .menu_area .nav{
+        display: -ms-flexbox;
+        display: flex;
+        -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+        padding-left: 0;
+        margin-bottom: 0;
+        list-style: none;
+        width: 742px;
+        margin-left: 168px;
+    }
+    .nav-pills .nav-link {
+        border-radius: 12px;
+    }
+    .menu_area nav a{
+        background-color: black;
+        color: white;
+        margin-bottom: 10px;
+        margin-top: 10px;
+    }
+    .menu_area nav a:hover{
+        background: #c5e267;
+        color: black;
+    }
+    .form-control{
+        border-radius: 12px;
+    }
+    .form-inline {
+        display: -ms-flexbox;
+        display: flex;
+        -ms-flex-flow: row wrap;
+        flex-flow: row wrap;
+        -ms-flex-align: center;
+        align-items: center;
+        width: 310px;
+    }
+    .form-control {
+        min-width: 100px;
+        text-align: center;
+    }
+    .menu_area button{
+        border-radius: 12px;
+    }
+    .menu_area button:hover{
+        background: #c5e267;
+        color: black;
+        border-radius: 12px;
+    }
+    .menu_area .pesq{
+        width: 310px;
+        margin-top: 8px;
+        margin-left: 660px;
+    }
+
+
+
+/* -- Main -- */
+
+    /* -- Novidades -- */
+    .col_novis{
+        border-style: solid;
+        border-color: #8acbda;
+        border-radius: 20px;
+        border-width: 2px;
+        margin-bottom: 20px;
+    }
+
+        /* -- Novidades - Título -- */
+        .titulo_novidades{
+            margin-top: 15px;
+            color: white;
+            margin-bottom: .5rem;
+            font-weight: 500;
+            line-height: 0.2;
+            margin-left: 0px;
+        }
+
+        /* -- Novidades - Conteúdo -- */
+        .novidades img{
+            width: 338px;
+            height: 210px;
+            border-radius: 12px;
+            margin-bottom: 20px;
+            margin-top: 5px;
+        }
+        .novidades a{
+            color: white;
+        }
+        .novidades .materia{
+            color: white;
+            text-align: justify;
+        }
+
+
+    /* -- Sobre e Editorial -- */
+    .col_sobredi{
+        border-style: solid;
+        border-color: #d479b5;
+        border-radius: 20px;
+        border-width: 2px;
+        margin-bottom: 20px;
+        margin-left: 0px;
+        min-width: 39.9%;
+    }
+
+        /* -- Sobre e Editorial - Títulos -- */
+        .titulo_sobre, .titulo_edi{
+            margin-top: 15px;
+            color: white;
+            margin-bottom: .5rem;
+            font-weight: 500;
+            line-height: 0.2;
+            margin-left: 22px;
+        }
+
+
+    /* -- Sobre -- */
+
+        /* -- Sobre - Título -- */
+
+        /* -- Sobre - Conteúdo -- */
+        .sobre_cont{
+            color: white;
+            text-align: justify;
+            width: 85%;
+            margin-left: 23px;
+        }
+
+
+    /* -- Editorial -- */
+
+        /* -- Editorial - Título -- */
+
+        /* -- Editorial - Conteúdo -- */
+        .edi_cont{
+            color: white;
+            text-align: justify;
+            width: 100%;
+            margin-left: 38px;
+        }
+        .edi_cont i{
+            font-size: x-large;
+            margin-right: 20px;
+        }
+        .edi_cont .redes i{
+            margin-top: 15px;
+        }
+        .edi_cont a{
+            color: white;
+        }
+
+
+/* -- Rodapé -- */
+.footer{
+    background: black;
+    color: white;
+    text-align: center;
+    margin-bottom: 20px;
+    border-style: solid;
+    border-color: #d479b5;
+    border-radius: 20px;
+    border-width: 2px;
+}
+
+
+.footer img{
+    width: 100px;
+}
+
+.footer .footer_area{
+    margin-top: 25px;
+}
+
+
+
+/*                                              -- MEDIA QUERIES -- 
+                                                -------------------
+*/
+    @media screen and (max-width:335px){
+        body{
+            width: 102%;
+        }
+        /* -- Menu Mobile -- */
+        .checkbtn{
+            display: block;
+            font-size: 30px;
+            color: white;
+            float: right;
+            line-height: 40px;
+            margin-right: 20px;
+            margin-top: 12px;
+            margin-bottom: 0px;
+            cursor: pointer;
+        }
+        #check{
+            display: none;
+        }
+        #checkbox{
+            display: inline;
+        }
+        #check:checked ~ .nav{
+            left: 0;
+            height: 350px;
+            transition: .01s left;
+        }
+
+        .menu_area .btn{
+            width: 20%;
+        }
+
+        /* -- Header -- */
+        .menu_area nav{
+            display: absolute;
+            width: 100%;
+            height: 100%;
+        }
+        .header .menu_area{
+            margin-top: 0px;
+            flex-wrap: wrap;
+            align-items: center;
+            top: 0px;
+            left: 0px;
+            
+        }
+        .menu_area .nav{
+            display: flex;
+            -ms-flex-wrap: wrap;
+            flex-wrap: wrap;
+            padding-left: 0;
+            margin-bottom: 0;
+            list-style: none;
+            width: 0px;
+            margin-left: 0px;
+
+            position: relative;
+            width: 100%;
+            height: 15px;
+            
+            left: -1000px;
+            text-align: center;
+            transition: height 0.5s;
+        }
+        .menu_area nav a {
+            background-color: black;
+            color: white;
+            margin-bottom: 9px;
+            margin-top: 9px;
+            transition: all;
+        }
+        .menu_area nav a:hover{
+            background: #c5e267;
+            color: black;
+        }
+        .form-inline {
+            display: -ms-flexbox;
+            display: flex;
+            -ms-flex-flow: row wrap;
+            flex-flow: row wrap;
+            -ms-flex-align: center;
+            align-items: center;
+            width: 0px;
+        }
+        .form-control {
+            max-width: 150px;
+            text-align: center;
+            margin-right: 5px;
+        }
+        .menu_area button:hover{
+            background: #c5e267;
+            color: black;
+        }
+        .menu_area .pesq{
+            width: 280px;
+            margin-top: 8px;
+            margin-left: 20px;
+        }
+        
+
+
+
+        
+
+        /* -- Novidades -- */
+            /* -- Novidades - Título -- */
+            .titulo_novidades{
+                margin-left: 27%;
+            }
+            .titulo_novidades h1{
+                font-size: x-large;
+            }
+            /* -- Novidades - Conteúdo -- */
+            .novidades img{
+                margin-top: 15px;
+                width: 100%;
+                height: 80%;
+                margin-left: 0px;
+            }
+
+        /* -- Sobre e Editorial -- */
+        .col_sobredi{
+            margin-left: 0px;
+        }
+
+           /* -- Sobre - Título -- */
+           .titulo_sobre{
+            width: 90%;
+            margin-left: 6%;
+            padding: 5px;
+            }
+            .titulo_sobre h1{
+                font-size: x-large;
+            }
+
+
+            /* -- Editorial - Título -- */
+            .row.titulo_edi{
+                width: 90%;
+                margin-left: 6%;
+                padding: 5px;
+            }
+            .titulo_edi h1{
+                font-size: x-large;
+            }
+
+    }
+    
+/*                                              -- MEDIA QUERIES -- 
+                                                -------------------
+*/
+
+    @media screen and (min-width:336px) and (max-width:575px){ 
+        body{
+            width: 100%;
+        }
+        /* -- Menu Mobile -- */
+        .checkbtn{
+            display: block;
+            font-size: 30px;
+            color: white;
+            float: right;
+            line-height: 40px;
+            margin-right: 0px;
+            margin-top: -39px;
+            margin-bottom: 0px;
+        }
+        #check{
+            display: none;
+        }
+        #checkbox{
+            display: inline;
+        }
+        #check:checked ~ .nav{
+            left: 0;
+            height: 350px;
+            transition: .01s left;
+        }
+
+        /* -- Header -- */
+        .menu_area nav{
+            display: absolute;
+            width: 100%;
+            height: 100%;
+        }
+        .header .menu_area{
+            margin-top: 0px;
+            flex-wrap: wrap;
+            align-items: center;
+            top: 0px;
+            left: 0px;
+        }
+        .menu_area .nav{
+            display: flex;
+            -ms-flex-wrap: wrap;
+            flex-wrap: wrap;
+            padding-left: 0;
+            margin-bottom: 0;
+            list-style: none;
+            width: 0px;
+            margin-left: 0px;
+
+            position: relative;
+            width: 100%;
+            height: 15px;
+
+            left: -1000px;
+            text-align: center;
+            transition: height .5s;
+        }
+        .menu_area nav a {
+            background-color: black;
+            color: white;
+            margin-bottom: 9px;
+            margin-top: 9px;
+
+        }
+        .menu_area nav a:hover{
+            background: #c5e267;
+            color: black;
+        }
+        .form-inline {
+            display: -ms-flexbox;
+            display: flex;
+            -ms-flex-flow: row wrap;
+            flex-flow: row wrap;
+            -ms-flex-align: center;
+            align-items: center;
+            width: 0px;
+        }
+        .form-control {
+            width: 55%;
+            text-align: center;
+            margin-right: 10px;
+        }
+        .menu_area button:hover{
+            background: #c5e267;
+            color: black;
+        }
+        .menu_area .pesq {
+            margin-top: 8px;
+            margin-left: 0px;
+            min-width: 250px;
+            max-width: 565px;
+            width: 90%;
+        }
+        .menu_area{
+            display: inline;
+        }
+
+
+        
+
+        /* -- Novidades -- */
+            /* -- Novidades - Título -- */
+            .titulo_novidades h1{
+                font-size: x-large;
+            }
+            /* -- Novidades - Conteúdo -- */
+            .novidades img{
+                width: 304px;
+                height: 190px;
+                margin-bottom: 20px;
+                margin-top: 10px;
+            }
+
+        /* -- Sobre e Editorial -- */
+        .col_sobredi{
+            margin-left: 0px;
+        }
+            /* -- Sobre - Título -- */
+            .titulo_sobre{
+                width: 90%;
+                margin-left: 4%;
+                padding: 10px;
+            }
+            .titulo_sobre h1{
+                font-size: x-large;
+            }
+
+
+            /* -- Editorial - Título -- */
+            .row.titulo_edi{
+                width: 90%;
+                margin-left: 4%;
+                padding: 10px;
+            }
+            .titulo_edi h1{
+                font-size: x-large;
+            }
+
+    }
+
+/*                                              -- MEDIA QUERIES -- 
+                                                -------------------
+*/
+
+    @media screen and (min-width:576px) and (max-width:767px){ /*CONCERTAR MENU MOBILE*/
+        /* -- Menu Mobile -- */
+        .checkbtn{
+            display: block;
+            font-size: 30px;
+            color: white;
+            float: right;
+            line-height: 40px;
+            margin-right: 0px;
+            margin-top: -39px;
+            cursor: pointer;
+        }
+        #check{
+            display: none;
+        }
+        #checkbox{
+            display: inline;
+        }
+        #check:checked ~ .nav{
+            left: 0;
+            display: inline;
+            transition: height .01s;
+        }
+
+
+        /* -- Outros -- */
+        .menu_area nav{
+            display: absolute;
+            width: 100%;
+            height: 100%;
+
+        }
+        .header .menu_area{
+            margin-top: 0px;
+            /*display: flex;
+            position: fixed;*/
+            flex-wrap: wrap;
+            align-items: center;
+            top: 0px;
+            left: 0px;
+        }
+        .menu_area .nav{
+            display: flex;
+            -ms-flex-wrap: wrap;
+            flex-wrap: wrap;
+            padding-left: 0;
+            margin-bottom: 0;
+            list-style: none;
+            width: 0px;
+            margin-left: 0px;
+
+            position: relative;
+            width: 100%;
+            height: 10px;
+            
+            left: -1000px;
+            text-align: center;
+            transition: height .5s;
+        }
+        .menu_area nav a {
+            background-color: black;
+            color: white;
+            margin-bottom: 9px;
+            margin-top: 9px;
+        }
+        .menu_area nav a:hover{
+            background: #c5e267;
+            color: black;
+        }
+        .form-inline {
+            display: -ms-flexbox;
+            display: flex;
+            -ms-flex-flow: row wrap;
+            flex-flow: row wrap;
+            -ms-flex-align: center;
+            align-items: center;
+            width: 0px;
+        }
+
+        .form-inline .form-control {
+            display: inline-block;
+            width: 55%;
+            vertical-align: middle;
+        }
+
+        .menu_area button:hover{
+            background: #c5e267;
+            color: black;
+        }
+        
+        .menu_area .pesq {
+            margin-top: 8px;
+            margin-left: 0px;
+            min-width: 460px;
+            max-width: 787px;
+            width: 90%;
+        }
+
+        .carousel-control-prev {
+            left: -8px;
+            width: 5%;
+        }
+        .carousel-control-next {
+            right: 0px;
+            width: 5%;
+        }
+
+        /* -- Carousel -- */
+        .titulo_lancamentos h1{
+            font-size: xx-large;
+        }
+        .lancamentos{
+            height: 750px;
+            margin-bottom: 20px;
+            background: black;
+            color: white;
+        }
+        .lancamentos iframe {
+            margin-left: 23px;
+            margin-top: 8px;
+            min-width: 30%;
+            max-width: 90%;
+            display: block;
+        }
+        .slide{
+            margin-left: 8px;
+        }
+        .infos{
+            max-width: 85%;
+            margin-left: 38px;
+            margin-top: 30px;
+            min-height: 100%;
+        }
+        .carousel-inner {
+            height: 750px;
+        }
+        .carousel-indicators {
+            position: absolute;
+            right: 0;
+            bottom: -15px;
+            left: -10px;
+            z-index: 15;
+            display: -ms-flexbox;
+            display: flex;
+            -ms-flex-pack: center;
+            justify-content: center;
+            padding-left: 0;
+            margin-right: 15%;
+            margin-left: 15%;
+            list-style: none;
+        }
+
+        
+
+        /* -- Novidades -- */
+
+            /* -- Novidades - Conteúdo -- */
+            .novidades img{
+                width: 480px;
+                height: 300px;
+                margin-bottom: 20px;
+                margin-top: 10px;
+            }
+            
+
+        /* -- Sobre e Editorial -- */
+        .col_sobredi{
+            margin-left: 0px;
+        }
+
+    }
+
+/*                                              -- MEDIA QUERIES -- 
+                                                -------------------
+*/
+
+    @media screen and (min-width:768px) and (max-width:991px){ /*CONCERTAR MENU MOBILE*/
+        
+        /* -- Menu Mobile -- */
+        .checkbtn{
+            display: block;
+            font-size: 30px;
+            color: white;
+            float: right;
+            line-height: 40px;
+            margin-right: 15px;
+            margin-top: 7px;
+            margin-bottom: 0px;
+            cursor: pointer;
+        }
+        #check{
+            display: none;
+        }
+        #checkbox{
+            display: inline;
+        }
+        #check:checked ~ .nav{
+            text-align: center;
+            left: 0;
+            display: inline-block;
+            margin-top: 0px;
+            height: 308px;
+            transition: height 0.01s;
+        }
+
+
+
+        /* -- Outros -- */
+        .menu_area nav{
+            display: absolute;
+            width: 100%;
+            height: 100%;
+
+        }
+        .header .menu_area{
+            margin-top: 0px;
+            /*display: flex;
+            position: fixed;*/
+            flex-wrap: wrap;
+            align-items: center;
+            top: 0px;
+            left: 0px;
+        }
+        .menu_area .nav{
+            display: flex;
+            -ms-flex-wrap: wrap;
+            flex-wrap: wrap;
+            padding-left: 0;
+            margin-bottom: 0;
+            list-style: none;
+            width: 0px;
+            margin-left: 0px;
+
+            position: relative;
+            width: 100%;
+            height: 0px;
+            
+
+            left: -1000px;
+            text-align: center;
+            transition: height 0.8s;
+        }
+        .menu_area nav a {
+            background-color: black;
+            color: white;
+            margin-bottom: 9px;
+            margin-top: 9px;
+        }
+        .menu_area nav a:hover{
+            background: #c5e267;
+            color: black;
+        }
+
+        .form-inline {
+            display: -ms-flexbox;
+            display: flex;
+            -ms-flex-flow: row wrap;
+            flex-flow: row wrap;
+            -ms-flex-align: center;
+            align-items: center;
+            width: 0px;
+        }
+        .form-control {
+            min-width: 150px;
+            text-align: center;
+        }
+        .menu_area button:hover{
+            background: #c5e267;
+            color: black;
+        }
+
+        .menu_area .pesq{
+            width: 310px;
+            margin-top: 23px;
+            margin-left: 185px;
+        }
+
+
+
+
+       
+
+        /* -- Novidades -- */
+            /* -- Novidades - Conteúdo -- */
+
+            .novidades img{
+                width: 208px;
+                height: 130px;
+                margin-bottom: 20px;
+                margin-top: 10px;
+            }
+            
+            /* -- Sobre e Editorial -- */
+            .col_sobredi{
+                margin-left: 0px;
+                min-width: 38.5%;
+            }
+
+            /* -- Editorial -- */
+                /* -- Editorial - Conteúdo -- */
+                .edi_cont{
+                    color: white;
+                    text-align: justify;
+                    width: 100%;
+                    margin-left: 38px;
+                }
+                .edi_cont i{
+                    font-size: x-large;
+                    margin-right: 20px;
+                }
+                .edi_cont .redes i{
+                    margin-top: 15px;
+                }
+                .edi_cont a{
+                    color: white;
+                }
+                
+
+
+
+    }
+
+/*                                              -- MEDIA QUERIES -- 
+                                                -------------------
+*/
+
+    @media screen and (min-width:992px) and (max-width: 1199px) {
+
+        /* -- Menu Mobile -- */
+        .menu_area .pesq{
+            width: 310px;
+            margin-left: 522px;
+        }
+        .menu_area .nav{
+            margin-left: 30px;
+        }
+        .form-inline {
+            width: 200px;
+        }
+
+
+       
+        /* -- Novidades -- */
+        .col_novis{
+            margin-left: 0px;
+        }
+        .novidades img{
+            width: 305px;
+            height: 190px;
+            border-radius: 12px;
+            margin-bottom: 20px;
+            margin-top: 5px;
+        }
+
+        /* -- Novidades - Conteúdo -- */
+
+        /* -- Sobre e Editorial -- */
+        .col_sobredi{
+            margin-left: 20px;
+            min-width: 39.5%;
+        }
+        
+        
+}
+
+
+
+
+/*Problemas a concertar: 
+    <768 o jeito que o menu abre não é deslizando
+*/
